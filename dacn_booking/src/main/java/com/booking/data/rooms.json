@@ -1,0 +1,2880 @@
+[
+    {
+        "_id": "627de569c777b5fd5e796fc2",
+        "slug": "lalaland-homestay",
+        "name": "lalaland homestay",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Đầy đủ tiện nghi",
+        "description": "homestay cho tuesday",
+        "image": "images/homestay/lalaland.png",
+        "images": [
+            "images/homestay/lalaland.png",
+            "images/homestay/lalaland.png"
+        ],
+        "price": 1234,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Home stay ngay 7 dem 3",
+                "comment": "Home stay ngay 7 dem 3 comment",
+                "rating": 5,
+                "_id": "62889bcb86fb983bdcd2fa03",
+                "updatedAt": "2022-05-29T15:28:34.767Z",
+                "createdAt": "2022-05-29T15:28:34.767Z"
+            },
+            {
+                "name": "Home stay ngay 7 dem 3",
+                "comment": "Home stay ngay 7 dem 3 comment",
+                "rating": 5,
+                "_id": "62889bcb86fb983bdcd2fa04",
+                "updatedAt": "2022-05-29T15:28:34.767Z",
+                "createdAt": "2022-05-29T15:28:34.767Z"
+            },
+            {
+                "name": "Home stay ngay 7 dem 3",
+                "comment": "Home stay ngay 7 dem 3 comment",
+                "rating": 5,
+                "_id": "62889bcb86fb983bdcd2fa05",
+                "updatedAt": "2022-05-29T15:28:34.767Z",
+                "createdAt": "2022-05-29T15:28:34.767Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Lê Lợi",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa165623f"
+        },
+        "status": false,
+        "createdAt": "2022-05-13T04:58:17.930Z",
+        "updatedAt": "2022-06-09T13:58:17.537Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "627e5a0e02ec2469ef087058",
+        "slug": "hidden-villa-soc-son",
+        "name": "Hidden Villa Sóc Sơn",
+        "userId":4,
+        "categoryId":1,
+        "shortDescription": "Đầy đủ tiện nghi",
+        "description": "Hidden Villa Soc Son là một nơi nghỉ nằm trong khu vực an ninh, toạ lạc tại xã Minh Phú, vị trí đắc địa, cách các khu du lịch chỉ 1-2km",
+        "image": "images/homestay/hidden-villa-2.jpg",
+        "images": [
+            "images/homestay/hidden-villa-2.jpg",
+            "images/homestay/hidden-villa-2.jpg"
+        ],
+        "price": 1234,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Hidden Villa Sóc Sơn",
+                "comment": "Cũng bình thường, không có gì mới lạ",
+                "rating": 3,
+                "_id": "627e5a0e02ec2469ef087059",
+                "updatedAt": "2022-05-29T15:28:34.851Z",
+                "createdAt": "2022-05-29T15:28:34.851Z"
+            },
+            {
+                "name": "Hidden Villa Sóc Sơn",
+                "comment": "Dịch vụ ổn, nhưng di chuyển đi chơi là nhiều không ở khách sạn mấy nên thấy cũng bình thường",
+                "rating": 4,
+                "_id": "627e5a0e02ec2469ef08705a",
+                "updatedAt": "2022-05-29T15:28:34.851Z",
+                "createdAt": "2022-05-29T15:28:34.851Z"
+            },
+            {
+                "name": "Hidden Villa Sóc Sơn",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "627e5a0e02ec2469ef08705b",
+                "updatedAt": "2022-05-29T15:28:34.851Z",
+                "createdAt": "2022-05-29T15:28:34.851Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Lê Lợi",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656241"
+        },
+        "status": false,
+        "createdAt": "2022-05-13T13:15:58.431Z",
+        "updatedAt": "2022-06-09T13:58:17.537Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "627e5b0202ec2469ef08705e",
+        "slug": "nap-saigon",
+        "name": "Nấp Saigon",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay tối giản, xịn xò con bò",
+        "description": "Homestay gợi nhớ về 1 SG xưa cũ, 1 nơi tuyệt vời trong Sài Gòn để thư giãn",
+        "image": "images/homestay/nap-sai-gon.jpg",
+        "images": [
+            "images/homestay/nap-sai-gon.jpg",
+            "images/homestay/nap-sai-gon.jpg"
+        ],
+        "price": 1234,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Nấp Saigon",
+                "comment": "Cũng hay ho, hợp lí",
+                "rating": 4,
+                "_id": "627e5b0202ec2469ef08705f",
+                "updatedAt": "2022-05-29T15:28:34.906Z",
+                "createdAt": "2022-05-29T15:28:34.906Z"
+            },
+            {
+                "name": "Nấp Saigon",
+                "comment": "Dịch vụ ổn, phòng đẹp sang xịn mịn, cafe trứng ngon",
+                "rating": 4,
+                "_id": "627e5b0202ec2469ef087060",
+                "updatedAt": "2022-05-29T15:28:34.906Z",
+                "createdAt": "2022-05-29T15:28:34.906Z"
+            },
+            {
+                "name": "Hidden Villa Sóc Sơn",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "627e5b0202ec2469ef087061",
+                "updatedAt": "2022-05-29T15:28:34.906Z",
+                "createdAt": "2022-05-29T15:28:34.906Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656243"
+        },
+        "status": false,
+        "createdAt": "2022-05-13T13:20:02.776Z",
+        "updatedAt": "2022-06-09T13:58:17.537Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "627e5bec02ec2469ef087064",
+        "slug": "domino-homestay-sg",
+        "name": "Domino homestay SG",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Bình dị nhưng đầy màu sắc",
+        "description": "Chẳng quá cầu kỳ trong thiết kế, khi lưu trú tại Domino Homestay sẽ dễ dàng bắt gặp những vật dụng trang trí thú vị, đơn cử như bộ bạn ghế gỗ cổ xưa hay những chiếc guitar thùng cực nghệ",
+        "image": "images/homestay/domino.jpg",
+        "images": [
+            "images/homestay/domino.jpg",
+            "images/homestay/domino.jpg"
+        ],
+        "price": 510000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Domino homestay SG",
+                "comment": "Mình thích chỗ này, rất yên bình và cực chill",
+                "rating": 5,
+                "_id": "627e5bec02ec2469ef087065",
+                "updatedAt": "2022-05-29T15:28:34.977Z",
+                "createdAt": "2022-05-29T15:28:34.977Z"
+            },
+            {
+                "name": "Domino homestay SG",
+                "comment": "Dịch vụ ổn, không gian cực kì thú vị, chillllll",
+                "rating": 4,
+                "_id": "627e5bec02ec2469ef087066",
+                "updatedAt": "2022-05-29T15:28:34.977Z",
+                "createdAt": "2022-05-29T15:28:34.977Z"
+            },
+            {
+                "name": "Domino homestay SG",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "627e5bec02ec2469ef087067",
+                "updatedAt": "2022-05-29T15:28:34.977Z",
+                "createdAt": "2022-05-29T15:28:34.977Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656245"
+        },
+        "status": false,
+        "createdAt": "2022-05-13T13:23:56.075Z",
+        "updatedAt": "2022-06-09T13:58:17.537Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "627e5e4802ec2469ef08706a",
+        "slug": "chill-house-phu-quoc",
+        "name": "Chill house Phú QUốc",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay được yêu thích nhất",
+        "description": "sở hữu không gian rộng và vô số góc chill hết nấc. Homestay được thiết kế theo phong cách hiện đại, nội thất chủ yếu là đồ gỗ, kết hợp nhiều mảng xanh mang đến cảm giác tươi mới và bình yên",
+        "image": "images/homestay/chillhouse.jpg",
+        "images": [
+            "images/homestay/chillhouse.jpg",
+            "images/homestay/chillhouse.jpg"
+        ],
+        "price": 400000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Chill house Phú QUốc",
+                "comment": "Mình thích chỗ này, rất yên bình và cực chill",
+                "rating": 5,
+                "_id": "627e5e4802ec2469ef08706b",
+                "updatedAt": "2022-05-29T15:28:35.028Z",
+                "createdAt": "2022-05-29T15:28:35.028Z"
+            },
+            {
+                "name": "Chill house Phú QUốc",
+                "comment": "Dịch vụ ổn, không gian cực kì thú vị, chillllll",
+                "rating": 4,
+                "_id": "627e5e4802ec2469ef08706c",
+                "updatedAt": "2022-05-29T15:28:35.028Z",
+                "createdAt": "2022-05-29T15:28:35.028Z"
+            },
+            {
+                "name": "Chill house Phú QUốc",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "627e5e4802ec2469ef08706d",
+                "updatedAt": "2022-05-29T15:28:35.028Z",
+                "createdAt": "2022-05-29T15:28:35.028Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656247"
+        },
+        "status": false,
+        "createdAt": "2022-05-13T13:34:00.269Z",
+        "updatedAt": "2022-06-09T13:58:17.538Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "627e5ee602ec2469ef087070",
+        "slug": "sbungalo-homestay",
+        "name": "Sbungalo homestay",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay phong cách riêng tư",
+        "description": "Giá thuê rẻ, mỗi phòng nghỉ đều có đủ tiện nghi, không gian rộng dành cho cả gia đình. Toàn bộ khuôn viên có vườn xanh và bể bơi ngoài trời. Thêm điểm cộng về vị trí đẹp, gần nhiều địa điểm du lịch, tham quan, vui chơi.",
+        "image": "images/homestay/sbungalo.jpg",
+        "images": [
+            "images/homestay/sbungalo.jpg",
+            "images/homestay/sbungalo.jpg"
+        ],
+        "price": 300000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Sbungalo homestay",
+                "comment": "Mình thích chỗ này, rất yên tĩnh, rẻ nữa",
+                "rating": 5,
+                "_id": "627e5ee602ec2469ef087071",
+                "updatedAt": "2022-05-29T15:28:35.041Z",
+                "createdAt": "2022-05-29T15:28:35.041Z"
+            },
+            {
+                "name": "Sbungalo homestay",
+                "comment": "Dịch vụ ổn, không gian cực kì rộng rãi với vườn và bể bơi, tuyệt vời",
+                "rating": 5,
+                "_id": "627e5ee602ec2469ef087072",
+                "updatedAt": "2022-05-29T15:28:35.041Z",
+                "createdAt": "2022-05-29T15:28:35.041Z"
+            },
+            {
+                "name": "Sbungalo homestay",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "627e5ee602ec2469ef087073",
+                "updatedAt": "2022-05-29T15:28:35.041Z",
+                "createdAt": "2022-05-29T15:28:35.041Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656249"
+        },
+        "status": false,
+        "createdAt": "2022-05-13T13:36:38.280Z",
+        "updatedAt": "2022-06-09T13:58:17.538Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "627e5f7502ec2469ef087076",
+        "slug": "bamboo-homestay",
+        "name": "Bamboo homestay",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay Huế xinh đẹp",
+        "description": "homestay Huế xinh đẹp này sử dụng chất liệu trẻ để trang trí mọi không gian của khách sạn, từ bàn ghế, khung tranh, xích đu cho tới giường, tủ, mọi đồ vật trong Bamboo Homestay đều mang màu vàng mộc mạc, thân thiện của tre làng Việt Nam",
+        "image": "images/homestay/bamboo.jpg",
+        "images": [
+            "images/homestay/bamboo.jpg",
+            "images/homestay/bamboo.jpg"
+        ],
+        "price": 500000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Bamboo homestay",
+                "comment": "Mình thích chỗ này, rất yên tĩnh, rẻ nữa",
+                "rating": 5,
+                "_id": "627e5f7502ec2469ef087077",
+                "updatedAt": "2022-05-29T15:28:35.130Z",
+                "createdAt": "2022-05-29T15:28:35.130Z"
+            },
+            {
+                "name": "Bamboo homestay",
+                "comment": "Dịch vụ ổn, không gian cực kì xanh sạch thân thiện với môi trường",
+                "rating": 5,
+                "_id": "627e5f7502ec2469ef087078",
+                "updatedAt": "2022-05-29T15:28:35.130Z",
+                "createdAt": "2022-05-29T15:28:35.130Z"
+            },
+            {
+                "name": "Bamboo homestay",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "627e5f7502ec2469ef087079",
+                "updatedAt": "2022-05-29T15:28:35.130Z",
+                "createdAt": "2022-05-29T15:28:35.130Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa165624b"
+        },
+        "status": false,
+        "createdAt": "2022-05-13T13:39:01.082Z",
+        "updatedAt": "2022-06-09T13:58:17.538Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "627e608b02ec2469ef08707c",
+        "slug": "abs-house",
+        "name": "ABS house",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay sông Hương xinh đẹp",
+        "description": "Nằm ven sông Hương, sông Như Ý, ABS House sở hữu không gian mát mẻ, dễ chịu bậc nhất ở Huế. Nếu bạn đang tìm kiếm một chốn dừng chân yên bình, tránh xa cái nắng gay gắt của ngày hè, nhất định nên lưu trú ở ABS House.",
+        "image": "images/homestay/abshouse.jpg",
+        "images": [
+            "images/homestay/abshouse.jpg",
+            "images/homestay/abshouse.jpg"
+        ],
+        "price": 250000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "ABS house",
+                "comment": "Mình thích chỗ này, rất yên tĩnh, rẻ nữa",
+                "rating": 5,
+                "_id": "627e608b02ec2469ef08707d",
+                "updatedAt": "2022-05-29T15:28:35.239Z",
+                "createdAt": "2022-05-29T15:28:35.239Z"
+            },
+            {
+                "name": "ABS house",
+                "comment": "Dịch vụ ổn, không gian thoáng mát, khung cảnh sông Hương cực kỳ lãng mạn",
+                "rating": 5,
+                "_id": "627e608b02ec2469ef08707e",
+                "updatedAt": "2022-05-29T15:28:35.239Z",
+                "createdAt": "2022-05-29T15:28:35.239Z"
+            },
+            {
+                "name": "ABS house",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "627e608b02ec2469ef08707f",
+                "updatedAt": "2022-05-29T15:28:35.239Z",
+                "createdAt": "2022-05-29T15:28:35.239Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa165624d"
+        },
+        "status": false,
+        "createdAt": "2022-05-13T13:43:39.427Z",
+        "updatedAt": "2022-06-09T13:58:17.538Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "627e62a602ec2469ef087082",
+        "slug": "langchia-nam-du-resort",
+        "name": "Langchia Nam Du resort",
+        "userId":4,
+        "categoryId":2,
+        "shortDescription": "Resort view biển",
+        "description": "Không chỉ có view ngắm biển đẹp, những căn phòng hướng biển decor xinh, cây cầu gỗ check-in sống ảo cực chất, Langchia Nam Du resort còn có hồ bơi, bãi tắm riêng biệt cho du khách tận hưởng kỳ nghỉ trên cả tuyệt vời.",
+        "image": "images/homestay/langchia.jpg",
+        "images": [
+            "images/homestay/langchia.jpg",
+            "images/homestay/langchia.jpg"
+        ],
+        "price": 700000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Langchia Nam Du resort",
+                "comment": "Mình thích chỗ này",
+                "rating": 5,
+                "_id": "627e62a602ec2469ef087083",
+                "updatedAt": "2022-05-29T15:28:35.340Z",
+                "createdAt": "2022-05-29T15:28:35.340Z"
+            },
+            {
+                "name": "Langchia Nam Du resort",
+                "comment": "Dịch vụ ổn, không gian thoáng mát, resort chanh sả hoà quyện cùng thiên nhiên",
+                "rating": 5,
+                "_id": "627e62a602ec2469ef087084",
+                "updatedAt": "2022-05-29T15:28:35.340Z",
+                "createdAt": "2022-05-29T15:28:35.340Z"
+            },
+            {
+                "name": "Langchia Nam Du resort",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "627e62a602ec2469ef087085",
+                "updatedAt": "2022-05-29T15:28:35.340Z",
+                "createdAt": "2022-05-29T15:28:35.340Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa165624f"
+        },
+        "status": false,
+        "createdAt": "2022-05-13T13:52:38.724Z",
+        "updatedAt": "2022-06-09T13:58:17.538Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "627f83533933d511ec7a3fb3",
+        "slug": "homestay-ben-suoi-ha-giang",
+        "name": "Homestay bên suối Hà Giang",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay ấm cúng bên suối",
+        "description": "Homestay được thiết kế theo phong cách cổ điển mà mới lạ, gây ấn tượng ngay khi bạn đặt chân đến đây. Khuôn viên rộng rãi, thoáng mát gồm 21 phòng nghỉ, quán cafe, quán ăn nhỏ, khu tổ chức tiệc BBQ, bãi để xe ô tô, nhà để xe máy. Một lựa chọn lý tưởng dành cho cả khách lẻ và khách đoàn.",
+        "image": "images/homestay/bensuoi.jpg",
+        "images": [
+            "images/homestay/bensuoi.jpg",
+            "images/homestay/bensuoi.jpg"
+        ],
+        "price": 300000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Homestay bên suối Hà Giang",
+                "comment": "Mình thích chỗ này",
+                "rating": 5,
+                "_id": "627f83533933d511ec7a3fb4",
+                "updatedAt": "2022-05-29T15:28:35.449Z",
+                "createdAt": "2022-05-29T15:28:35.449Z"
+            },
+            {
+                "name": "Homestay bên suối Hà Giang",
+                "comment": "Dịch vụ ổn, không gian thoáng mát, khung cảnh thanh bình",
+                "rating": 4,
+                "_id": "627f83533933d511ec7a3fb5",
+                "updatedAt": "2022-05-29T15:28:35.449Z",
+                "createdAt": "2022-05-29T15:28:35.449Z"
+            },
+            {
+                "name": "Homestay bên suối Hà Giang",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "627f83533933d511ec7a3fb6",
+                "updatedAt": "2022-05-29T15:28:35.449Z",
+                "createdAt": "2022-05-29T15:28:35.449Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656251"
+        },
+        "status": false,
+        "createdAt": "2022-05-14T10:24:19.080Z",
+        "updatedAt": "2022-06-09T13:58:17.538Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "627f84c93933d511ec7a3fbf",
+        "slug": "rong-homestay-quy-nhon",
+        "name": "Rỗng homestay Quy NHơn",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay giản dị",
+        "description": "Ở Rỗng, du khách sẽ được trải nghiệm một không gian sống khoáng đạt với lối kiến trúc giản dị, không màu mè, và rất mộc. Toàn bộ nội thất trong nhà đều được trang trí với gam màu ấm, làm nổi bật sắc thái tươi vui mà homestay này đem lại.",
+        "image": "images/homestay/rong.jpg",
+        "images": [
+            "images/homestay/rong.jpg",
+            "images/homestay/rong.jpg"
+        ],
+        "price": 200000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Rỗng homestay Quy NHơn",
+                "comment": "Mình thích chỗ này",
+                "rating": 5,
+                "_id": "627f84c93933d511ec7a3fc0",
+                "updatedAt": "2022-05-29T15:28:35.630Z",
+                "createdAt": "2022-05-29T15:28:35.630Z"
+            },
+            {
+                "name": "Rỗng homestay Quy NHơn",
+                "comment": "Dịch vụ tuyệt vời, không gian giản dị ấm cúng",
+                "rating": 4,
+                "_id": "627f84c93933d511ec7a3fc1",
+                "updatedAt": "2022-05-29T15:28:35.630Z",
+                "createdAt": "2022-05-29T15:28:35.630Z"
+            },
+            {
+                "name": "Rỗng homestay Quy NHơn",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "627f84c93933d511ec7a3fc2",
+                "updatedAt": "2022-05-29T15:28:35.630Z",
+                "createdAt": "2022-05-29T15:28:35.630Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656255"
+        },
+        "status": false,
+        "createdAt": "2022-05-14T10:30:33.944Z",
+        "updatedAt": "2022-06-09T13:58:17.538Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "627faa4bd8a9dfca8ba41060",
+        "slug": "happy-land",
+        "name": "Happy Land",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay núi rừng Mộc Châu",
+        "description": "Homestay Happy Land là một địa điểm bạn không thể bỏ qua, luôn được xướng tên trong top 5 homestay Mộc Châu đầu tiên đáng sống bởi không gian nhà ống độc đáo, lạ mắt đầy thú vị.",
+        "image": "images/homestay/happyland.jpg",
+        "images": [
+            "images/homestay/happyland.jpg",
+            "images/homestay/happyland.jpg"
+        ],
+        "price": 250000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Happy Land",
+                "comment": "Mình thích chỗ này",
+                "rating": 5,
+                "_id": "627faa4bd8a9dfca8ba41061",
+                "updatedAt": "2022-05-29T15:28:35.638Z",
+                "createdAt": "2022-05-29T15:28:35.638Z"
+            },
+            {
+                "name": "Happy Land",
+                "comment": "Núi rừng xinh đẹp",
+                "rating": 4,
+                "_id": "627faa4bd8a9dfca8ba41062",
+                "updatedAt": "2022-05-29T15:28:35.638Z",
+                "createdAt": "2022-05-29T15:28:35.638Z"
+            },
+            {
+                "name": "Happy Land",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "627faa4bd8a9dfca8ba41063",
+                "updatedAt": "2022-05-29T15:28:35.638Z",
+                "createdAt": "2022-05-29T15:28:35.638Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656257"
+        },
+        "status": false,
+        "createdAt": "2022-05-14T13:10:35.392Z",
+        "updatedAt": "2022-06-09T13:58:17.538Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "627faac1d8a9dfca8ba41066",
+        "slug": "nha-ta-homestay",
+        "name": "Nhà Ta homestay",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay lều",
+        "description": "Khuôn viên Nhà Ta homestay Mộc Châu Sơn La gồm những căn lều gỗ hình chóp, được lấy ý tưởng từ những ngọn núi Mèo nhọn, hùng vĩ ở vùng cao Tây Bắc để thiết kế nên.",
+        "image": "images/homestay/nhata.jpg",
+        "images": [
+            "images/homestay/nhata.jpg",
+            "images/homestay/nhata.jpg"
+        ],
+        "price": 250000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Nhà Ta homestay",
+                "comment": "Mình thích chỗ này",
+                "rating": 5,
+                "_id": "627faac1d8a9dfca8ba41067",
+                "updatedAt": "2022-05-29T15:28:35.694Z",
+                "createdAt": "2022-05-29T15:28:35.694Z"
+            },
+            {
+                "name": "Nhà Ta homestay",
+                "comment": "Núi rừng xinh đẹp, homestay kiểu lều độc lạ",
+                "rating": 4,
+                "_id": "627faac1d8a9dfca8ba41068",
+                "updatedAt": "2022-05-29T15:28:35.694Z",
+                "createdAt": "2022-05-29T15:28:35.694Z"
+            },
+            {
+                "name": "Nhà Ta homestay",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "627faac1d8a9dfca8ba41069",
+                "updatedAt": "2022-05-29T15:28:35.694Z",
+                "createdAt": "2022-05-29T15:28:35.694Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656259"
+        },
+        "status": false,
+        "createdAt": "2022-05-14T13:12:33.668Z",
+        "updatedAt": "2022-06-09T13:58:17.538Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "627fab30d8a9dfca8ba4106c",
+        "slug": "nha-cua-me-homestay",
+        "name": "Nhà của Mẹ homestay",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay nhà gỗ",
+        "description": "Homestay Mộc Châu Sơn La này mang “phiên bản” nhà gỗ thể hiện đúng tinh thần hồn Việt kết hợp lối trang trí như Hàn Quốc nên không gian này hứa hẹn sẽ ấn tượng, đầy thơ mộng.",
+        "image": "images/homestay/nhacuame.jpg",
+        "images": [
+            "images/homestay/nhacuame.jpg",
+            "images/homestay/nhacuame.jpg"
+        ],
+        "price": 300000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Nhà của Mẹ homestay",
+                "comment": "Mình thích chỗ này",
+                "rating": 5,
+                "_id": "627fab30d8a9dfca8ba4106d",
+                "updatedAt": "2022-05-29T15:28:35.717Z",
+                "createdAt": "2022-05-29T15:28:35.717Z"
+            },
+            {
+                "name": "Nhà của Mẹ homestay",
+                "comment": "Núi rừng xinh đẹp, homestay nhiều loại phòng, background đẹp",
+                "rating": 4,
+                "_id": "627fab30d8a9dfca8ba4106e",
+                "updatedAt": "2022-05-29T15:28:35.717Z",
+                "createdAt": "2022-05-29T15:28:35.717Z"
+            },
+            {
+                "name": "Nhà của Mẹ homestay",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "627fab30d8a9dfca8ba4106f",
+                "updatedAt": "2022-05-29T15:28:35.717Z",
+                "createdAt": "2022-05-29T15:28:35.717Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa165625b"
+        },
+        "status": false,
+        "createdAt": "2022-05-14T13:14:24.242Z",
+        "updatedAt": "2022-06-09T13:58:17.538Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "627fabedd8a9dfca8ba41072",
+        "slug": "nha-ben-suoi-homestay",
+        "name": "Nhà bên Suối homestay",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay bên suối",
+        "description": "Nhà homestay Mộc Châu này là một sự hòa quyện giữa thiên nhiên và những căn nhà gỗ nằm sát dọc ven suối. Nơi để bạn trốn khỏi thành phố về với thiên nhiên và để cảm nhận thiên nhiên trong lành đến thế nào.",
+        "image": "images/homestay/nhabensuoi.jpg",
+        "images": [
+            "images/homestay/nhabensuoi.jpg",
+            "images/homestay/nhabensuoi.jpg"
+        ],
+        "price": 260000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Nhà bên Suối homestay",
+                "comment": "Mình thích chỗ này",
+                "rating": 5,
+                "_id": "627fabedd8a9dfca8ba41073",
+                "updatedAt": "2022-05-29T15:28:35.809Z",
+                "createdAt": "2022-05-29T15:28:35.809Z"
+            },
+            {
+                "name": "Nhà bên Suối homestay",
+                "comment": "Núi rừng xinh đẹp, cảnh êm đềm, suối trong vắt",
+                "rating": 4,
+                "_id": "627fabedd8a9dfca8ba41074",
+                "updatedAt": "2022-05-29T15:28:35.809Z",
+                "createdAt": "2022-05-29T15:28:35.809Z"
+            },
+            {
+                "name": "Nhà bên Suối homestay",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "627fabedd8a9dfca8ba41075",
+                "updatedAt": "2022-05-29T15:28:35.809Z",
+                "createdAt": "2022-05-29T15:28:35.809Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa165625d"
+        },
+        "status": false,
+        "createdAt": "2022-05-14T13:17:33.198Z",
+        "updatedAt": "2022-06-09T13:58:17.538Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "627fac8dd8a9dfca8ba41078",
+        "slug": "hmong-mountain-retreat",
+        "name": "Hmong mountain retreat",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay độc lạ",
+        "description": "Được xây dựng theo một phong cách độc lạ, đó là được dựng từ những căn nhà sàn đã có tuổi đời trên 70 năm, homestay đẹp ở Sapa Hmong Mountain Retreat chính là chốn gắn kết du khách với đất trời thiên nhiên Sapa một cách gần gũi nhất.",
+        "image": "images/homestay/hmong.jpg",
+        "images": [
+            "images/homestay/hmong.jpg",
+            "images/homestay/hmong.jpg"
+        ],
+        "price": 300000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Hmong mountain retreat",
+                "comment": "Mình thích chỗ này",
+                "rating": 5,
+                "_id": "627fac8dd8a9dfca8ba41079",
+                "updatedAt": "2022-05-29T15:28:35.850Z",
+                "createdAt": "2022-05-29T15:28:35.850Z"
+            },
+            {
+                "name": "Hmong mountain retreat",
+                "comment": "Hoà mình với thiên nhiên",
+                "rating": 4,
+                "_id": "627fac8dd8a9dfca8ba4107a",
+                "updatedAt": "2022-05-29T15:28:35.850Z",
+                "createdAt": "2022-05-29T15:28:35.850Z"
+            },
+            {
+                "name": "Hmong mountain retreat",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "627fac8dd8a9dfca8ba4107b",
+                "updatedAt": "2022-05-29T15:28:35.850Z",
+                "createdAt": "2022-05-29T15:28:35.850Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa165625f"
+        },
+        "status": false,
+        "createdAt": "2022-05-14T13:20:13.364Z",
+        "updatedAt": "2022-06-09T13:58:17.538Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "627facdad8a9dfca8ba4107e",
+        "slug": "hmong-the-hill",
+        "name": "Hmong the hill",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay độc lạ",
+        "description": "Mỗi căn nhà trong homestay giá rẻ Sapa này đều được thiết kế theo phong cách Việt Nam truyền thống, với vật liệu chính là gỗ, tre và nứa. Vật dụng được dùng để trang trí cũng rất đa dạng và sinh động, khi thì bắp ngô, khi thì cam cháy, góp phần đem lại một không gian sinh hoạt đậm chất dân dã miền núi dành cho mọi du khách.",
+        "image": "images/homestay/hmongthehill.jpg",
+        "images": [
+            "images/homestay/hmongthehill.jpg",
+            "images/homestay/hmongthehill.jpg"
+        ],
+        "price": 300000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Hmong the hill ",
+                "comment": "Mình thích chỗ này",
+                "rating": 5,
+                "_id": "627facdad8a9dfca8ba4107f",
+                "updatedAt": "2022-05-29T15:28:35.908Z",
+                "createdAt": "2022-05-29T15:28:35.908Z"
+            },
+            {
+                "name": "Hmong the hill ",
+                "comment": "Hoà mình với thiên nhiên",
+                "rating": 4,
+                "_id": "627facdad8a9dfca8ba41080",
+                "updatedAt": "2022-05-29T15:28:35.908Z",
+                "createdAt": "2022-05-29T15:28:35.908Z"
+            },
+            {
+                "name": "Hmong the hill ",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "627facdad8a9dfca8ba41081",
+                "updatedAt": "2022-05-29T15:28:35.908Z",
+                "createdAt": "2022-05-29T15:28:35.908Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656261"
+        },
+        "status": false,
+        "createdAt": "2022-05-14T13:21:30.859Z",
+        "updatedAt": "2022-06-09T13:58:17.538Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "627fad2ed8a9dfca8ba41084",
+        "slug": "paradise-homestay",
+        "name": "Paradise homestay",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay núi rừng",
+        "description": "Tọa lạc ngay lưng chừng đồi có homestay Sapa Paradise là một địa chỉ mà bất cứ tín đồ mê dịch chuyển nào cũng không được bỏ lỡ.",
+        "image": "images/homestay/paradise.jpg",
+        "images": [
+            "images/homestay/paradise.jpg",
+            "images/homestay/paradise.jpg"
+        ],
+        "price": 300000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Paradise homestay",
+                "comment": "Mình thích chỗ này",
+                "rating": 5,
+                "_id": "627fad2ed8a9dfca8ba41085",
+                "updatedAt": "2022-05-29T15:28:35.998Z",
+                "createdAt": "2022-05-29T15:28:35.998Z"
+            },
+            {
+                "name": "Paradise homestay",
+                "comment": "Hoà mình với thiên nhiên",
+                "rating": 4,
+                "_id": "627fad2ed8a9dfca8ba41086",
+                "updatedAt": "2022-05-29T15:28:35.998Z",
+                "createdAt": "2022-05-29T15:28:35.998Z"
+            },
+            {
+                "name": "Paradise homestay",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "627fad2ed8a9dfca8ba41087",
+                "updatedAt": "2022-05-29T15:28:35.998Z",
+                "createdAt": "2022-05-29T15:28:35.998Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656263"
+        },
+        "status": false,
+        "createdAt": "2022-05-14T13:22:54.994Z",
+        "updatedAt": "2022-06-09T13:58:17.538Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "627fad7bd8a9dfca8ba4108a",
+        "slug": "lolo-s-homestay-sapa",
+        "name": "Lolo's homestay Sapa",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay núi rừng",
+        "description": "Nằm sâu trong một con ngõ nhỏ ở thôn Tả Van Dáy 2 có một homestay vạn người mê khác mà chúng tôi muốn giới thiệu tới các bạn, đó chính là Lolo’s Homestay.",
+        "image": "images/homestay/lolos.jpg",
+        "images": [
+            "images/homestay/lolos.jpg",
+            "images/homestay/lolos.jpg"
+        ],
+        "price": 300000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Lolo's homestay Sapa",
+                "comment": "Mình thích chỗ này",
+                "rating": 5,
+                "_id": "627fad7bd8a9dfca8ba4108b",
+                "updatedAt": "2022-05-29T15:28:36.103Z",
+                "createdAt": "2022-05-29T15:28:36.103Z"
+            },
+            {
+                "name": "Lolo's homestay Sapa",
+                "comment": "Hoà mình với thiên nhiên",
+                "rating": 4,
+                "_id": "627fad7bd8a9dfca8ba4108c",
+                "updatedAt": "2022-05-29T15:28:36.103Z",
+                "createdAt": "2022-05-29T15:28:36.103Z"
+            },
+            {
+                "name": "Lolo's homestay Sapa",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "627fad7bd8a9dfca8ba4108d",
+                "updatedAt": "2022-05-29T15:28:36.103Z",
+                "createdAt": "2022-05-29T15:28:36.103Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656265"
+        },
+        "status": false,
+        "createdAt": "2022-05-14T13:24:11.936Z",
+        "updatedAt": "2022-06-09T13:58:17.538Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "627fadc1d8a9dfca8ba41090",
+        "slug": "hoa-chanh-homestay",
+        "name": "Hoa Chanh homestay",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay núi rừng",
+        "description": "Sở hữu phong cách trang trí bình dị, gần gũi có homestay Hoa Chanh, điểm dừng chân tuyệt vời với những dịch vụ siêu hoàn hảo.",
+        "image": "images/homestay/hoachanh.jpg",
+        "images": [
+            "images/homestay/hoachanh.jpg",
+            "images/homestay/hoachanh.jpg"
+        ],
+        "price": 300000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Hoa Chanh homestay",
+                "comment": "Mình thích chỗ này",
+                "rating": 5,
+                "_id": "627fadc1d8a9dfca8ba41091",
+                "updatedAt": "2022-05-29T15:28:36.149Z",
+                "createdAt": "2022-05-29T15:28:36.149Z"
+            },
+            {
+                "name": "Hoa Chanh homestay",
+                "comment": "Hoà mình với thiên nhiên",
+                "rating": 4,
+                "_id": "627fadc1d8a9dfca8ba41092",
+                "updatedAt": "2022-05-29T15:28:36.149Z",
+                "createdAt": "2022-05-29T15:28:36.149Z"
+            },
+            {
+                "name": "Hoa Chanh homestay",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "627fadc1d8a9dfca8ba41093",
+                "updatedAt": "2022-05-29T15:28:36.149Z",
+                "createdAt": "2022-05-29T15:28:36.149Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656267"
+        },
+        "status": false,
+        "createdAt": "2022-05-14T13:25:21.078Z",
+        "updatedAt": "2022-06-09T13:58:17.538Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "627fae21d8a9dfca8ba41096",
+        "slug": "duong-yen-homestay",
+        "name": "Duong Yen homestay",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay trên đỉnh núi",
+        "description": "Với vị trí tọa lạc độc đáo, đó là nằm trên đỉnh núi và được bao quanh bởi những thửa ruộng bậc thang rộng mênh mông, homestay tại Sapa Duong Yen đang khiến cộng đồng xê dịch phải xôn xao bàn tán đấy.",
+        "image": "images/homestay/duongyen.jpg",
+        "images": [
+            "images/homestay/duongyen.jpg",
+            "images/homestay/duongyen.jpg"
+        ],
+        "price": 200000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Duong Yen homestay",
+                "comment": "Mình thích chỗ này, bình dị tuyệt vời",
+                "rating": 5,
+                "_id": "627fae21d8a9dfca8ba41097",
+                "updatedAt": "2022-05-29T15:28:36.228Z",
+                "createdAt": "2022-05-29T15:28:36.228Z"
+            },
+            {
+                "name": "Duong Yen homestay",
+                "comment": "Hoà mình với thiên nhiên, trồng rau nuôi cá",
+                "rating": 4,
+                "_id": "627fae21d8a9dfca8ba41098",
+                "updatedAt": "2022-05-29T15:28:36.228Z",
+                "createdAt": "2022-05-29T15:28:36.228Z"
+            },
+            {
+                "name": "Duong Yen homestay",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "627fae21d8a9dfca8ba41099",
+                "updatedAt": "2022-05-29T15:28:36.228Z",
+                "createdAt": "2022-05-29T15:28:36.228Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656269"
+        },
+        "status": false,
+        "createdAt": "2022-05-14T13:26:57.731Z",
+        "updatedAt": "2022-06-09T13:58:17.538Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "628076f302695524b131be82",
+        "slug": "garden-house-nha-trang",
+        "name": "Garden house Nha Trang",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay trong biệt thự",
+        "description": "Căn biệt thự đơn lập Garden House Nha Trang rộng 500m2 là một điểm đến lý tưởng với những tâm hồn yêu biển và thích sự bình yên. Không gian tuyệt vời này tọa lạc tại địa chỉ lô 25, số 8 Nguyễn Đình Chiểu, Tp. Nha Trang. Nơi đây rất thuận tiện di chuyển đến nhiều địa điểm tham quan, ra bãi tắm và thiên đường ăn uống hải sản chợ kè.",
+        "image": "images/homestay/gardenhouse.jpg",
+        "images": [
+            "images/homestay/gardenhouse.jpg",
+            "images/homestay/gardenhouse.jpg"
+        ],
+        "price": 300000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Garden house Nha Trang",
+                "comment": "Mình thích chỗ này, tuyệt vời",
+                "rating": 5,
+                "_id": "628076f302695524b131be83",
+                "updatedAt": "2022-05-29T15:28:36.344Z",
+                "createdAt": "2022-05-29T15:28:36.344Z"
+            },
+            {
+                "name": "Garden house Nha Trang",
+                "comment": "Không gian tuyệt vời, rộng rãi thoáng mát",
+                "rating": 4,
+                "_id": "628076f302695524b131be84",
+                "updatedAt": "2022-05-29T15:28:36.344Z",
+                "createdAt": "2022-05-29T15:28:36.344Z"
+            },
+            {
+                "name": "Garden house Nha Trang",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "628076f302695524b131be85",
+                "updatedAt": "2022-05-29T15:28:36.344Z",
+                "createdAt": "2022-05-29T15:28:36.344Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa165626b"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T03:43:47.361Z",
+        "updatedAt": "2022-06-09T13:58:17.538Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "6280777602695524b131be88",
+        "slug": "ez-homestay",
+        "name": "EZ homestay",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay đơn giản",
+        "description": "EZ Homestay tọa lạc tại đường Bắc Sơn, thị xã Vĩnh Hải, thành phố Nha Trang. Homestay có kiến trúc giống với những ngôi nhà ở, tạo được sự gần gũi, ấm áp cho du khách như ở trong chính ngôi nhà của mình.",
+        "image": "images/homestay/ez.jpg",
+        "images": [
+            "images/homestay/ez.jpg",
+            "images/homestay/ez.jpg"
+        ],
+        "price": 300000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "EZ homestay",
+                "comment": "Tạm ổn",
+                "rating": 3,
+                "_id": "6280777602695524b131be89",
+                "updatedAt": "2022-05-29T15:28:36.374Z",
+                "createdAt": "2022-05-29T15:28:36.374Z"
+            },
+            {
+                "name": "EZ homestay",
+                "comment": "Đơn giản, thoải mái",
+                "rating": 4,
+                "_id": "6280777602695524b131be8a",
+                "updatedAt": "2022-05-29T15:28:36.374Z",
+                "createdAt": "2022-05-29T15:28:36.374Z"
+            },
+            {
+                "name": "EZ homestay",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "6280777602695524b131be8b",
+                "updatedAt": "2022-05-29T15:28:36.374Z",
+                "createdAt": "2022-05-29T15:28:36.374Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa165626d"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T03:45:58.589Z",
+        "updatedAt": "2022-06-09T13:58:17.538Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "628077c302695524b131be8e",
+        "slug": "hem-xeo-homestay",
+        "name": "Hẻm Xéo homestay",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay đơn giản",
+        "description": "Diagon Alley ( Hẻm Xéo ) Homestay không chỉ là điểm lưu trú chất lượng với kiến trúc đẹp, phòng nghỉ rộng rãi, tiện nghi mà còn có khuôn viên đẹp, là một trong những homestay sống ảo tại Nha Trang cực ấn tượng.",
+        "image": "images/homestay/hemxeo.jpg",
+        "images": [
+            "images/homestay/hemxeo.jpg",
+            "images/homestay/hemxeo.jpg"
+        ],
+        "price": 300000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Hẻm Xéo homestay",
+                "comment": "Tạm ổn",
+                "rating": 3,
+                "_id": "628077c302695524b131be8f",
+                "updatedAt": "2022-05-29T15:28:36.428Z",
+                "createdAt": "2022-05-29T15:28:36.428Z"
+            },
+            {
+                "name": "Hẻm Xéo homestay",
+                "comment": "Đơn giản, thoải mái",
+                "rating": 4,
+                "_id": "628077c302695524b131be90",
+                "updatedAt": "2022-05-29T15:28:36.428Z",
+                "createdAt": "2022-05-29T15:28:36.428Z"
+            },
+            {
+                "name": "Hẻm Xéo homestay",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "628077c302695524b131be91",
+                "updatedAt": "2022-05-29T15:28:36.428Z",
+                "createdAt": "2022-05-29T15:28:36.428Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa165626f"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T03:47:15.878Z",
+        "updatedAt": "2022-06-09T13:58:17.538Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "6280782902695524b131be94",
+        "slug": "good-morning-homestay",
+        "name": "Good morning homestay",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay đơn giản",
+        "description": "Toàn bộ hệ thống phòng nghỉ của Moon’s đều có view nhìn thẳng ra quang cảnh dòng sông vô cùng nên thơ, thoáng đãng, đồng thời bên ngoài ban công còn được để sẵn một bộ bàn ghế để du khách nghỉ ngơi..",
+        "image": "images/homestay/goodmorning.jpg",
+        "images": [
+            "images/homestay/goodmorning.jpg",
+            "images/homestay/goodmorning.jpg"
+        ],
+        "price": 300000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Good morning homestay",
+                "comment": " ổn",
+                "rating": 4,
+                "_id": "6280782902695524b131be95",
+                "updatedAt": "2022-05-29T15:28:36.549Z",
+                "createdAt": "2022-05-29T15:28:36.549Z"
+            },
+            {
+                "name": "Good morning homestay",
+                "comment": "Đơn giản, thoải mái",
+                "rating": 4,
+                "_id": "6280782902695524b131be96",
+                "updatedAt": "2022-05-29T15:28:36.549Z",
+                "createdAt": "2022-05-29T15:28:36.549Z"
+            },
+            {
+                "name": "Good morning homestay",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "6280782902695524b131be97",
+                "updatedAt": "2022-05-29T15:28:36.549Z",
+                "createdAt": "2022-05-29T15:28:36.549Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656271"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T03:48:57.455Z",
+        "updatedAt": "2022-06-09T13:58:17.538Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "628078b502695524b131be9a",
+        "slug": "garden-aroma-homestay",
+        "name": "Garden Aroma homestay",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay sang chảnh",
+        "description": "Chắc chắn lần đầu đến với Garden Aroma Homestay Hội An bạn sẽ nhảy cẫng lên thích thú vì đây là homestay Hội An có hồ bơi ngoài trời có thiết kế đẹp mắt và phòng ngủ thì siêu xinh. Các chàng trai cô gái nào thích bơi lội và ưa sống ảo thì chắc chắn sẽ chấm ngay 5 sao cho homestay này.",
+        "image": "images/homestay/gardenaroma.jpg",
+        "images": [
+            "images/homestay/gardenaroma.jpg",
+            "images/homestay/gardenaroma.jpg"
+        ],
+        "price": 570000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Garden Aroma homestay",
+                "comment": "Xịn xò",
+                "rating": 4,
+                "_id": "628078b502695524b131be9b",
+                "updatedAt": "2022-05-29T15:28:36.565Z",
+                "createdAt": "2022-05-29T15:28:36.565Z"
+            },
+            {
+                "name": "Garden Aroma homestay",
+                "comment": "Sang xịn mịn",
+                "rating": 4,
+                "_id": "628078b502695524b131be9c",
+                "updatedAt": "2022-05-29T15:28:36.565Z",
+                "createdAt": "2022-05-29T15:28:36.565Z"
+            },
+            {
+                "name": "Garden Aroma homestay",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "628078b502695524b131be9d",
+                "updatedAt": "2022-05-29T15:28:36.565Z",
+                "createdAt": "2022-05-29T15:28:36.565Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656273"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T03:51:17.182Z",
+        "updatedAt": "2022-06-09T13:58:17.538Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "628078f502695524b131bea0",
+        "slug": "loc-phat-homestay",
+        "name": "Lộc Phát homestay",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay sang chảnh",
+        "description": "Loc Phat homestay hoi an vietnam mang đến một không gian vừa sang chảnh, vừa gần gũi cho du khách. Thiết kế tuy đơn giản nhưng lại vô cùng tinh tế và chỉn chu đến từng chi tiết. Từ cái bàn gỗ, chiếc giường đến từng bông sen tươi trong phòng được chủ nhà chăm chút khéo léo. Đây là chỗ nghỉ tuyệt vời dành cho những bạn thích sự trầm tĩnh, hoài cổ.",
+        "image": "images/homestay/locphat.jpg",
+        "images": [
+            "images/homestay/locphat.jpg",
+            "images/homestay/locphat.jpg"
+        ],
+        "price": 450000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Lộc Phát homestay",
+                "comment": "Xịn xò",
+                "rating": 4,
+                "_id": "628078f502695524b131bea1",
+                "updatedAt": "2022-05-29T15:28:36.589Z",
+                "createdAt": "2022-05-29T15:28:36.589Z"
+            },
+            {
+                "name": "Lộc Phát homestay",
+                "comment": "Sang xịn mịn",
+                "rating": 4,
+                "_id": "628078f502695524b131bea2",
+                "updatedAt": "2022-05-29T15:28:36.589Z",
+                "createdAt": "2022-05-29T15:28:36.589Z"
+            },
+            {
+                "name": "Lộc Phát homestay",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "628078f502695524b131bea3",
+                "updatedAt": "2022-05-29T15:28:36.589Z",
+                "createdAt": "2022-05-29T15:28:36.589Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656275"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T03:52:21.304Z",
+        "updatedAt": "2022-06-09T13:58:17.538Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "6280794e02695524b131bea6",
+        "slug": "blan-homestay-hoi-an",
+        "name": "Blan homestay Hội An",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay giá rẻ",
+        "description": "B’lan Homestay nằm ngay trung tâm khu phố cổ và có thiết kế đơn giản nhưng không kém phần trang nhã. Lấy hai gam màu nâu tím tin cậy và sắc trắng tinh khôi làm chủ đạo, mang lại cảm giác thư giãn và dễ chịu cho du khách.",
+        "image": "images/homestay/blan.jpg",
+        "images": [
+            "images/homestay/blan.jpg",
+            "images/homestay/blan.jpg"
+        ],
+        "price": 250000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Blan homestay Hội An",
+                "comment": "ổn áp",
+                "rating": 4,
+                "_id": "6280794e02695524b131bea7",
+                "updatedAt": "2022-05-29T15:28:36.777Z",
+                "createdAt": "2022-05-29T15:28:36.777Z"
+            },
+            {
+                "name": "Blan homestay Hội An",
+                "comment": "Ổn với giá tiền bỏ ra",
+                "rating": 4,
+                "_id": "6280794e02695524b131bea8",
+                "updatedAt": "2022-05-29T15:28:36.777Z",
+                "createdAt": "2022-05-29T15:28:36.777Z"
+            },
+            {
+                "name": "Blan homestay Hội An",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "6280794e02695524b131bea9",
+                "updatedAt": "2022-05-29T15:28:36.777Z",
+                "createdAt": "2022-05-29T15:28:36.777Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656277"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T03:53:50.456Z",
+        "updatedAt": "2022-06-09T13:58:17.539Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "62809a7db27c1f1140a119f4",
+        "slug": "sumi-home",
+        "name": "Sumi Home",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay ngay trung tâm thành phố",
+        "description": "Sumi Home có đầy đủ các yếu tố cho một nơi lưu trú hoàn hảo như: nằm tại vị trí trung tâm thành phố, nội thất chất lượng, đầy đủ tiện nghi, giá cả hợp lý, không gian yên bình. Sumi Home rất đầu tư về thiết kế theo phong cách tối giản nhưng đầy tinh tế và thanh lịch. Nội thất được đầu tư chất lượng và tỉ mỉ trong từng chi tiết khiến mỗi góc nhà của Sumi Home đều có thể trở thành 1 bức hình đầy chất thơ.",
+        "image": "images/homestay/sumi.jpg",
+        "images": [
+            "images/homestay/sumi.jpg",
+            "images/homestay/sumi.jpg"
+        ],
+        "price": 400000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Sumi Home",
+                "comment": "ổn áp",
+                "rating": 4,
+                "_id": "62809a7db27c1f1140a119f5",
+                "updatedAt": "2022-05-29T15:28:37.215Z",
+                "createdAt": "2022-05-29T15:28:37.215Z"
+            },
+            {
+                "name": "Sumi Home",
+                "comment": "Các host cực thân thiện và chu đáo",
+                "rating": 4,
+                "_id": "62809a7db27c1f1140a119f6",
+                "updatedAt": "2022-05-29T15:28:37.215Z",
+                "createdAt": "2022-05-29T15:28:37.215Z"
+            },
+            {
+                "name": "Sumi Home",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "62809a7db27c1f1140a119f7",
+                "updatedAt": "2022-05-29T15:28:37.215Z",
+                "createdAt": "2022-05-29T15:28:37.215Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656279"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T06:15:25.746Z",
+        "updatedAt": "2022-06-09T13:58:17.539Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "62809ae9b27c1f1140a119fa",
+        "slug": "the-90s-hostel-da-nang",
+        "name": "The 90s hostel Đà Nẵng",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay ngay trung tâm thành phố",
+        "description": "Nằm ngay trung tâm thành phố Đà Nẵng tại địa chỉ 63 Trần Khánh Dư, Mỹ An, Ngũ Hành Sơn, Đà Nẵng, The ’90s hostel dễ dàng lọt vào tầm ngắm của những du khách lười đi xa.",
+        "image": "images/homestay/the90s.jpg",
+        "images": [
+            "images/homestay/the90s.jpg",
+            "images/homestay/the90s.jpg"
+        ],
+        "price": 400000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "The 90s hostel Đà Nẵng",
+                "comment": "ổn áp",
+                "rating": 4,
+                "_id": "62809ae9b27c1f1140a119fb",
+                "updatedAt": "2022-05-29T15:28:37.235Z",
+                "createdAt": "2022-05-29T15:28:37.235Z"
+            },
+            {
+                "name": "The 90s hostel Đà Nẵng",
+                "comment": "Các host cực thân thiện và chu đáo",
+                "rating": 4,
+                "_id": "62809ae9b27c1f1140a119fc",
+                "updatedAt": "2022-05-29T15:28:37.235Z",
+                "createdAt": "2022-05-29T15:28:37.235Z"
+            },
+            {
+                "name": "The 90s hostel Đà Nẵng",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "62809ae9b27c1f1140a119fd",
+                "updatedAt": "2022-05-29T15:28:37.235Z",
+                "createdAt": "2022-05-29T15:28:37.235Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Phạm Ngũ Lão",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa165627b"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T06:17:13.586Z",
+        "updatedAt": "2022-06-09T13:58:17.539Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "62809b43b27c1f1140a11a00",
+        "slug": "clam-hostel-da-nang",
+        "name": "Clam hostel Đà Nẵng",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay ngay trung tâm thành phố",
+        "description": "Clam Hostel Đà Nẵng tọa lạc tại 63 Nguyễn Thiện Kế, Đà Nẵng. Nơi này cách cầu Tình Yêu 0.5k, biển Mỹ Khê 0.5km, bảo tàng Chăm 1.5km, sông Hàn 1km,…",
+        "image": "images/homestay/clam.jpg",
+        "images": [
+            "images/homestay/clam.jpg",
+            "images/homestay/clam.jpg"
+        ],
+        "price": 400000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Clam hostel Đà Nẵng",
+                "comment": "ổn áp",
+                "rating": 4,
+                "_id": "62809b43b27c1f1140a11a01",
+                "updatedAt": "2022-05-29T15:28:37.460Z",
+                "createdAt": "2022-05-29T15:28:37.460Z"
+            },
+            {
+                "name": "Clam hostel Đà Nẵng",
+                "comment": "Các host cực thân thiện và chu đáo",
+                "rating": 4,
+                "_id": "62809b43b27c1f1140a11a02",
+                "updatedAt": "2022-05-29T15:28:37.460Z",
+                "createdAt": "2022-05-29T15:28:37.460Z"
+            },
+            {
+                "name": "Clam hostel Đà Nẵng",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "62809b43b27c1f1140a11a03",
+                "updatedAt": "2022-05-29T15:28:37.460Z",
+                "createdAt": "2022-05-29T15:28:37.460Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Đinh Bộ Lĩnh",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa165627d"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T06:18:43.014Z",
+        "updatedAt": "2022-06-09T13:58:17.539Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "62809ba8b27c1f1140a11a06",
+        "slug": "vitaminsea-homestay-da-nang",
+        "name": "Vitaminsea homestay Đà Nẵng",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay ngay trung tâm thành phố",
+        "description": "Đúng như tên gọi của nó, thiết kế của Vitaminsea Homestay Đà Nẵng mang màu sắc và hương vị của biển cả. Tường được trang trí bằng những hoa văn là sóng biển xanh trong, mang lại cái nhìn dịu dàng, nhẹ nhàng và vô cùng mát mắt.",
+        "image": "images/homestay/vitaminsea.jpg",
+        "images": [
+            "images/homestay/vitaminsea.jpg",
+            "images/homestay/vitaminsea.jpg"
+        ],
+        "price": 400000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Vitaminsea homestay Đà Nẵng",
+                "comment": "ổn áp",
+                "rating": 4,
+                "_id": "62809ba8b27c1f1140a11a07",
+                "updatedAt": "2022-05-29T15:28:37.484Z",
+                "createdAt": "2022-05-29T15:28:37.484Z"
+            },
+            {
+                "name": "Vitaminsea homestay Đà Nẵng",
+                "comment": "Các host cực thân thiện và chu đáo",
+                "rating": 4,
+                "_id": "62809ba8b27c1f1140a11a08",
+                "updatedAt": "2022-05-29T15:28:37.484Z",
+                "createdAt": "2022-05-29T15:28:37.484Z"
+            },
+            {
+                "name": "Vitaminsea homestay Đà Nẵng",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "62809ba8b27c1f1140a11a09",
+                "updatedAt": "2022-05-29T15:28:37.484Z",
+                "createdAt": "2022-05-29T15:28:37.484Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Đinh Bộ Lĩnh",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa165627f"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T06:20:24.289Z",
+        "updatedAt": "2022-06-09T13:58:17.539Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "62809c06b27c1f1140a11a0c",
+        "slug": "aloe-garden-homestay-da-nang",
+        "name": "Aloe garden homestay Đà Nẵng",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay gần biển",
+        "description": "Aloe Garden Homestay là một trong những homestay đẹp ở Đà Nẵng khá được lòng du khách Tây vì view ngắm bình minh và hoàng hôn trên biển đẹp không có chỗ chê!",
+        "image": "images/homestay/aloe.jpg",
+        "images": [
+            "images/homestay/aloe.jpg",
+            "images/homestay/aloe.jpg"
+        ],
+        "price": 640000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Aloe garden homestay Đà Nẵng",
+                "comment": "ổn áp",
+                "rating": 4,
+                "_id": "62809c06b27c1f1140a11a0d",
+                "updatedAt": "2022-05-29T15:28:37.488Z",
+                "createdAt": "2022-05-29T15:28:37.488Z"
+            },
+            {
+                "name": "Aloe garden homestay Đà Nẵng",
+                "comment": "View đẹp",
+                "rating": 4,
+                "_id": "62809c06b27c1f1140a11a0e",
+                "updatedAt": "2022-05-29T15:28:37.488Z",
+                "createdAt": "2022-05-29T15:28:37.488Z"
+            },
+            {
+                "name": "Aloe garden homestay Đà Nẵng",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "62809c06b27c1f1140a11a0f",
+                "updatedAt": "2022-05-29T15:28:37.488Z",
+                "createdAt": "2022-05-29T15:28:37.488Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Đinh Bộ Lĩnh",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656281"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T06:21:58.150Z",
+        "updatedAt": "2022-06-09T13:58:17.539Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "62809c95b27c1f1140a11a12",
+        "slug": "an-homestay-phan-thiet",
+        "name": "Ẩn homestay Phan Thiết",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay ngoại thành",
+        "description": "Ẩn homestay nằm ở ngoại thành thành phố Phan Thiết, tọa lạc khu dân cư Bến Lội, quốc lộ 1A, Bình Thuận, cách trung tâm khoảng 5km và vào bãi biển Phan Thiết 6km. Homestay là một căn hộ nhỏ xinh xắn, ẩn mình giữa một vùng quê thanh bình, trong lành, phong cách thiết kế decor tối giản, hòa trong nét tinh khôi thanh thoát của khu vườn đầy ắp muôn hoa, cây cỏ.",
+        "image": "images/homestay/an.jpg",
+        "images": [
+            "images/homestay/an.jpg",
+            "images/homestay/an.jpg"
+        ],
+        "price": 500000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Ẩn homestay Phan Thiết",
+                "comment": "ổn áp",
+                "rating": 4,
+                "_id": "62809c95b27c1f1140a11a13",
+                "updatedAt": "2022-05-29T15:28:37.556Z",
+                "createdAt": "2022-05-29T15:28:37.556Z"
+            },
+            {
+                "name": "Ẩn homestay Phan Thiết",
+                "comment": "View đẹp",
+                "rating": 4,
+                "_id": "62809c95b27c1f1140a11a14",
+                "updatedAt": "2022-05-29T15:28:37.556Z",
+                "createdAt": "2022-05-29T15:28:37.556Z"
+            },
+            {
+                "name": "Ẩn homestay Phan Thiết",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "62809c95b27c1f1140a11a15",
+                "updatedAt": "2022-05-29T15:28:37.556Z",
+                "createdAt": "2022-05-29T15:28:37.556Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Đinh Bộ Lĩnh",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656283"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T06:24:21.873Z",
+        "updatedAt": "2022-06-09T13:58:17.539Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "62809d23b27c1f1140a11a18",
+        "slug": "bot-bien-homestay-mui-ne",
+        "name": "Bọt Biển homestay Mũi Né",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay ven biển",
+        "description": "Homestay Bọt Biển nằm trên tuyến đường ven biển Mũi Né, sát biển đi bộ 1 phút là đến biển xanh ngắt, du khách tha hồ đi dạo, tắm biển hay ngắm bình minh, hoàng hôn.",
+        "image": "images/homestay/botbien.jpg",
+        "images": [
+            "images/homestay/botbien.jpg",
+            "images/homestay/botbien.jpg"
+        ],
+        "price": 300000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Bọt Biển homestay Mũi Né",
+                "comment": "Homestay được trang trí đẹp, đầy màu sắc",
+                "rating": 4,
+                "_id": "62809d23b27c1f1140a11a19",
+                "updatedAt": "2022-05-29T15:28:37.849Z",
+                "createdAt": "2022-05-29T15:28:37.849Z"
+            },
+            {
+                "name": "Bọt Biển homestay Mũi Né",
+                "comment": "View đẹp",
+                "rating": 4,
+                "_id": "62809d23b27c1f1140a11a1a",
+                "updatedAt": "2022-05-29T15:28:37.849Z",
+                "createdAt": "2022-05-29T15:28:37.849Z"
+            },
+            {
+                "name": "Bọt Biển homestay Mũi Né",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "62809d23b27c1f1140a11a1b",
+                "updatedAt": "2022-05-29T15:28:37.849Z",
+                "createdAt": "2022-05-29T15:28:37.849Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Đinh Bộ Lĩnh",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656285"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T06:26:43.362Z",
+        "updatedAt": "2022-06-09T13:58:17.539Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "62809da6b27c1f1140a11a1e",
+        "slug": "slice-of-time-homestay-mui-ne",
+        "name": "Slice of time homestay Mũi Né",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay cao cấp",
+        "description": "Nơi này cung cấp dịch vụ cho thuê căn hộ lưu trú, homestay du lịch cao cấp tại TP.Phan Thiết, với những căn nhà nguyên căn đẹp, sang trọng, gần trung tâm, gần biển, Full dịch vụ đầy đủ tiện nghi vật chất, nội thất cao cấp, sạch sẽ, tạo không gian riêng tư, thải mái cho du khách nghỉ dưỡng.",
+        "image": "images/homestay/slice.jpg",
+        "images": [
+            "images/homestay/slice.jpg",
+            "images/homestay/slice.jpg"
+        ],
+        "price": 1200000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Slice of time homestay Mũi Né",
+                "comment": "Homestay chuẩn cao cấp, xịn xò",
+                "rating": 4,
+                "_id": "62809da6b27c1f1140a11a1f",
+                "updatedAt": "2022-05-29T15:28:37.942Z",
+                "createdAt": "2022-05-29T15:28:37.942Z"
+            },
+            {
+                "name": "Slice of time homestay Mũi Né",
+                "comment": "Giá cao nhưng chất lượng",
+                "rating": 4,
+                "_id": "62809da6b27c1f1140a11a20",
+                "updatedAt": "2022-05-29T15:28:37.942Z",
+                "createdAt": "2022-05-29T15:28:37.942Z"
+            },
+            {
+                "name": "Slice of time homestay Mũi Né",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "62809da6b27c1f1140a11a21",
+                "updatedAt": "2022-05-29T15:28:37.942Z",
+                "createdAt": "2022-05-29T15:28:37.942Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Đinh Bộ Lĩnh",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656287"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T06:28:54.512Z",
+        "updatedAt": "2022-06-09T13:58:17.539Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "62809e40b27c1f1140a11a24",
+        "slug": "winter-spring-homestay",
+        "name": "Winter Spring Homestay",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay giá rẻ",
+        "description": "Winter spring homestay Cần Thơ là một căn nhà xanh ngay lòng trung tâm thành phố Cần Thơ, với không gian cây xanh và rau được trồng ở mọi nơi trong căn nhà. Nó được xây dựng bởi cặp vợ chồng trẻ yêu thích du lịch vòng quanh thế giới và kinh doanh trong lĩnh vực xuất khẩu gạo ra toàn thế giới.",
+        "image": "images/homestay/winterspring.jpg",
+        "images": [
+            "images/homestay/winterspring.jpg",
+            "images/homestay/winterspring.jpg"
+        ],
+        "price": 300000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Winter Spring Homestay",
+                "comment": "Homestay ổn áp",
+                "rating": 4,
+                "_id": "62809e40b27c1f1140a11a25",
+                "updatedAt": "2022-05-29T15:28:37.946Z",
+                "createdAt": "2022-05-29T15:28:37.946Z"
+            },
+            {
+                "name": "Winter Spring Homestay",
+                "comment": "Tốt nè",
+                "rating": 4,
+                "_id": "62809e40b27c1f1140a11a26",
+                "updatedAt": "2022-05-29T15:28:37.946Z",
+                "createdAt": "2022-05-29T15:28:37.946Z"
+            },
+            {
+                "name": "Winter Spring Homestay",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "62809e40b27c1f1140a11a27",
+                "updatedAt": "2022-05-29T15:28:37.946Z",
+                "createdAt": "2022-05-29T15:28:37.946Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Đinh Bộ Lĩnh",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656289"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T06:31:28.352Z",
+        "updatedAt": "2022-06-09T13:58:17.539Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "62809eb9b27c1f1140a11a2a",
+        "slug": "winter-spring-colors-house",
+        "name": "Winter Spring Colors house",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay giá rẻ",
+        "description": "Tất cả các ngôi nhà ở đây đều sẽ không có lễ tân, khách book phòng sẽ được check online, nhận mật khẩu cổng và cửa nhà để tự do đi lại. Bạn sẽ được trải nghiệm cảm giác giống y như chính ngôi nhà của mình, cực kỳ thoải mái và dễ chịu.",
+        "image": "images/homestay/colors.jpg",
+        "images": [
+            "images/homestay/colors.jpg",
+            "images/homestay/colors.jpg"
+        ],
+        "price": 400000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Winter Spring Colors house",
+                "comment": "Homestay ổn áp",
+                "rating": 4,
+                "_id": "62809eb9b27c1f1140a11a2b",
+                "updatedAt": "2022-05-29T15:28:38.012Z",
+                "createdAt": "2022-05-29T15:28:38.012Z"
+            },
+            {
+                "name": "Winter Spring Colors house",
+                "comment": "Tốt nè",
+                "rating": 4,
+                "_id": "62809eb9b27c1f1140a11a2c",
+                "updatedAt": "2022-05-29T15:28:38.012Z",
+                "createdAt": "2022-05-29T15:28:38.012Z"
+            },
+            {
+                "name": "Winter Spring Colors house",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "62809eb9b27c1f1140a11a2d",
+                "updatedAt": "2022-05-29T15:28:38.012Z",
+                "createdAt": "2022-05-29T15:28:38.012Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Đinh Bộ Lĩnh",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa165628b"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T06:33:29.970Z",
+        "updatedAt": "2022-06-09T13:58:17.539Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "6280e2f463fba1dc072d2f61",
+        "slug": "the-chipmunk",
+        "name": "The Chipmunk",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay giá rẻ",
+        "description": "Là một trong những resort Sóc Sơn đẹp nhất, The Chipmunk – Nhà của Sóc là tập hợp những ngôi nhà kính độc đáo nằm nép nơi rừng thông xanh ngát, đẹp như một bức tranh. Đẹp không kém gì xứ sở ngàn hoa Đà Lạt, đến với nơi đây bạn sẽ cảm nhận được vẻ đẹp mơ mộng, lãng mạn cùng với bầu không khí dễ chịu nhất.",
+        "image": "images/homestay/thechipmunks.jpg",
+        "images": [
+            "images/homestay/thechipmunks.jpg",
+            "images/homestay/thechipmunks.jpg"
+        ],
+        "price": 400000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "The Chipmunk",
+                "comment": "Homestay ổn áp",
+                "rating": 4,
+                "_id": "6280e2f463fba1dc072d2f62",
+                "updatedAt": "2022-05-29T15:28:39.200Z",
+                "createdAt": "2022-05-29T15:28:39.200Z"
+            },
+            {
+                "name": "The Chipmunk",
+                "comment": "Tốt nè",
+                "rating": 4,
+                "_id": "6280e2f463fba1dc072d2f63",
+                "updatedAt": "2022-05-29T15:28:39.200Z",
+                "createdAt": "2022-05-29T15:28:39.200Z"
+            },
+            {
+                "name": "The Chipmunk",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "6280e2f463fba1dc072d2f64",
+                "updatedAt": "2022-05-29T15:28:39.200Z",
+                "createdAt": "2022-05-29T15:28:39.200Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Đinh Bộ Lĩnh",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa165628d"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T11:24:36.507Z",
+        "updatedAt": "2022-06-09T13:58:17.539Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "6280e33063fba1dc072d2f67",
+        "slug": "nha-ben-rung",
+        "name": "Nhà bên rừng",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay bên rừng",
+        "description": "Nhà Bên Rừng là một khu nghỉ dưỡng có thiết kế khá ấn tượng với kiến trúc hầu như đều được lấy cảm hứng từ cây thông. Mọi đồ vật trong nhà cho đến bên ngoài đều xuất hiện hình ảnh cây thông, quả thông, lá thông khiến du khách khi nghỉ dưỡng tại đây cực kì ấn tượng.",
+        "image": "images/homestay/nhabenrung.jpg",
+        "images": [
+            "images/homestay/nhabenrung.jpg",
+            "images/homestay/nhabenrung.jpg"
+        ],
+        "price": 400000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Nhà bên rừng",
+                "comment": "Homestay ổn áp",
+                "rating": 4,
+                "_id": "6280e33063fba1dc072d2f68",
+                "updatedAt": "2022-05-29T15:28:39.216Z",
+                "createdAt": "2022-05-29T15:28:39.216Z"
+            },
+            {
+                "name": "Nhà bên rừng",
+                "comment": "Tốt nè",
+                "rating": 4,
+                "_id": "6280e33063fba1dc072d2f69",
+                "updatedAt": "2022-05-29T15:28:39.216Z",
+                "createdAt": "2022-05-29T15:28:39.216Z"
+            },
+            {
+                "name": "Nhà bên rừng",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "6280e33063fba1dc072d2f6a",
+                "updatedAt": "2022-05-29T15:28:39.216Z",
+                "createdAt": "2022-05-29T15:28:39.216Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Đinh Bộ Lĩnh",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa165628f"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T11:25:36.904Z",
+        "updatedAt": "2022-06-09T13:58:17.539Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "6280fb773ba1b8c0a79aa7e9",
+        "slug": "the-seen-house",
+        "name": "The seen house",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay bên hồ",
+        "description": "Phòng ngủ hướng ra mặt hồ và có cửa bằng kính giúp bạn có thể chiêm ngưỡng khung cảnh thiên nhiên tuyệt đẹp.",
+        "image": "images/homestay/theseenhouse.jpg",
+        "images": [
+            "images/homestay/theseenhouse.jpg",
+            "images/homestay/theseenhouse.jpg"
+        ],
+        "price": 400000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "The seen house",
+                "comment": "Homestay ổn áp",
+                "rating": 4,
+                "_id": "6280fb773ba1b8c0a79aa7ea",
+                "updatedAt": "2022-05-29T15:28:39.441Z",
+                "createdAt": "2022-05-29T15:28:39.441Z"
+            },
+            {
+                "name": "The seen house",
+                "comment": "Tốt nè",
+                "rating": 4,
+                "_id": "6280fb773ba1b8c0a79aa7eb",
+                "updatedAt": "2022-05-29T15:28:39.441Z",
+                "createdAt": "2022-05-29T15:28:39.441Z"
+            },
+            {
+                "name": "The seen house",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "6280fb773ba1b8c0a79aa7ec",
+                "updatedAt": "2022-05-29T15:28:39.441Z",
+                "createdAt": "2022-05-29T15:28:39.441Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Đinh Bộ Lĩnh",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656291"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T13:09:11.839Z",
+        "updatedAt": "2022-06-09T13:58:17.539Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "6280fbac3ba1b8c0a79aa7ef",
+        "slug": "the-lake-house",
+        "name": "The Lake house",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay bên hồ",
+        "description": "Homestay Đà Lạt đẹp này có các phòng đơn, phòng đôi, phòng 3 và cả phòng dorm. Bạn có thể mua thức ăn về nấu tại homestay để ngồi thưởng thức và ngắm hồ Tuyền Lâm mộng mơ. Homestay còn có khu Coffee shop siêu lung linh và lãng mạn cho bạn thỏa sức “sống ảo”.",
+        "image": "images/homestay/thelakehouse.jpg",
+        "images": [
+            "images/homestay/thelakehouse.jpg",
+            "images/homestay/thelakehouse.jpg"
+        ],
+        "price": 400000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "The Lake house",
+                "comment": "Homestay ổn áp",
+                "rating": 4,
+                "_id": "6280fbac3ba1b8c0a79aa7f0",
+                "updatedAt": "2022-05-29T15:28:39.577Z",
+                "createdAt": "2022-05-29T15:28:39.577Z"
+            },
+            {
+                "name": "The Lake house",
+                "comment": "Tốt nè",
+                "rating": 4,
+                "_id": "6280fbac3ba1b8c0a79aa7f1",
+                "updatedAt": "2022-05-29T15:28:39.577Z",
+                "createdAt": "2022-05-29T15:28:39.577Z"
+            },
+            {
+                "name": "The Lake house",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "6280fbac3ba1b8c0a79aa7f2",
+                "updatedAt": "2022-05-29T15:28:39.577Z",
+                "createdAt": "2022-05-29T15:28:39.577Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Đinh Bộ Lĩnh",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656293"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T13:10:04.530Z",
+        "updatedAt": "2022-06-09T13:58:17.539Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "6280fbf03ba1b8c0a79aa7f5",
+        "slug": "vuon-thuong-house",
+        "name": "Vườn Thương house",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay bên hồ",
+        "description": "Mộc mạc và giản dị, Vườn Thương house khiến bạn có cảm giác như lạc vào một thế giới bình yên và mộng mơ của chốn thần tiên.",
+        "image": "images/homestay/vuonthuong.jpg",
+        "images": [
+            "images/homestay/myvhpirckyubkl6anusx",
+            "images/homestay/zhbvt5s55s23m3wwrckx"
+        ],
+        "price": 400000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Vườn Thương house",
+                "comment": "Homestay ổn áp",
+                "rating": 4,
+                "_id": "6280fbf03ba1b8c0a79aa7f6",
+                "updatedAt": "2022-05-29T15:28:39.918Z",
+                "createdAt": "2022-05-29T15:28:39.918Z"
+            },
+            {
+                "name": "Vườn Thương house",
+                "comment": "Tốt nè",
+                "rating": 4,
+                "_id": "6280fbf03ba1b8c0a79aa7f7",
+                "updatedAt": "2022-05-29T15:28:39.918Z",
+                "createdAt": "2022-05-29T15:28:39.918Z"
+            },
+            {
+                "name": "Vườn Thương house",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "6280fbf03ba1b8c0a79aa7f8",
+                "updatedAt": "2022-05-29T15:28:39.918Z",
+                "createdAt": "2022-05-29T15:28:39.918Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Đinh Bộ Lĩnh",
+            "_id": "62acb3a8024052e2dc5ceb88"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T13:11:12.418Z",
+        "updatedAt": "2022-06-17T17:02:32.584Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "6280fc343ba1b8c0a79aa7fb",
+        "slug": "mac-homestay",
+        "name": "Mặc homestay",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay bên hồ",
+        "description": "Nguyên liệu xây dựng Mặc chủ yếu được làm từ gỗ tự nhiên, vậy nên căn bungalow nào cũng rất thông thoáng và mát mẻ. Một căn bungalow có thể ở được 4 người, bên trong được trang bị đủ các vật dụng tiện nghi nhất cùng thiết kế hiện đại số một, đảm bảo sẽ luôn khiến bạn cảm thấy thoải mái khi dừng chân tại đây.",
+        "image": "images/homestay/mac.jpg",
+        "images": [
+            "images/homestay/mac.jpg",
+            "images/homestay/mac.jpg"
+        ],
+        "price": 400000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Mặc homestay",
+                "comment": "Homestay ổn áp",
+                "rating": 4,
+                "_id": "6280fc343ba1b8c0a79aa7fc",
+                "updatedAt": "2022-05-29T15:28:40.096Z",
+                "createdAt": "2022-05-29T15:28:40.096Z"
+            },
+            {
+                "name": "Mặc homestay",
+                "comment": "Tốt nè",
+                "rating": 4,
+                "_id": "6280fc343ba1b8c0a79aa7fd",
+                "updatedAt": "2022-05-29T15:28:40.096Z",
+                "createdAt": "2022-05-29T15:28:40.096Z"
+            },
+            {
+                "name": "Mặc homestay",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "6280fc343ba1b8c0a79aa7fe",
+                "updatedAt": "2022-05-29T15:28:40.096Z",
+                "createdAt": "2022-05-29T15:28:40.096Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Đinh Bộ Lĩnh",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656297"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T13:12:20.575Z",
+        "updatedAt": "2022-06-09T13:58:17.539Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "6280fc893ba1b8c0a79aa801",
+        "slug": "com-homestay",
+        "name": "Cốm homestay",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay Buôn Ma Thuột",
+        "description": "Chỉ cần mở cửa sổ trong phòng nghỉ thôi, bạn đã có thể hít căng lồng ngực thứ không khí trong lành và vô cùng mát mẻ chốn này đấy. Chưa hết, trong homestay còn có sẵn phòng khách, phòng bếp, toilet đầy đủ, thậm chí có cả lò nướng giúp bạn tổ chức tiệc ngoài trời đó.",
+        "image": "images/homestay/com.jpg",
+        "images": [
+            "images/homestay/com.jpg",
+            "images/homestay/com.jpg"
+        ],
+        "price": 400000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Cốm homestay",
+                "comment": "Homestay ổn áp",
+                "rating": 4,
+                "_id": "6280fc893ba1b8c0a79aa802",
+                "updatedAt": "2022-05-29T15:28:40.148Z",
+                "createdAt": "2022-05-29T15:28:40.148Z"
+            },
+            {
+                "name": "Cốm homestay",
+                "comment": "Tốt nè",
+                "rating": 4,
+                "_id": "6280fc893ba1b8c0a79aa803",
+                "updatedAt": "2022-05-29T15:28:40.148Z",
+                "createdAt": "2022-05-29T15:28:40.148Z"
+            },
+            {
+                "name": "Cốm homestay",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "6280fc893ba1b8c0a79aa804",
+                "updatedAt": "2022-05-29T15:28:40.148Z",
+                "createdAt": "2022-05-29T15:28:40.148Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Đinh Bộ Lĩnh",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa1656299"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T13:13:45.815Z",
+        "updatedAt": "2022-06-09T13:58:17.539Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "6280fccf3ba1b8c0a79aa807",
+        "slug": "zan-homestay",
+        "name": "Zan homestay",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay Buôn Ma Thuột",
+        "description": "Zan Homestay sở hữu hệ thống phòng nghỉ không chỉ đẹp mà còn gây ấn tượng mạnh với mọi du khách nhờ không gian được trang trí rực rỡ sắc màu.",
+        "image": "images/homestay/shev1t8ovf8g7ueb3yf8",
+        "images": [
+            "images/homestay/shev1t8ovf8g7ueb3yf8"
+        ],
+        "price": 400000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Zan homestay",
+                "comment": "Homestay ổn áp",
+                "rating": 4,
+                "_id": "6280fccf3ba1b8c0a79aa808",
+                "updatedAt": "2022-05-29T15:28:40.758Z",
+                "createdAt": "2022-05-29T15:28:40.758Z"
+            },
+            {
+                "name": "Zan homestay",
+                "comment": "Tốt nè",
+                "rating": 4,
+                "_id": "6280fccf3ba1b8c0a79aa809",
+                "updatedAt": "2022-05-29T15:28:40.758Z",
+                "createdAt": "2022-05-29T15:28:40.758Z"
+            },
+            {
+                "name": "Zan homestay",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "6280fccf3ba1b8c0a79aa80a",
+                "updatedAt": "2022-05-29T15:28:40.758Z",
+                "createdAt": "2022-05-29T15:28:40.758Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Đinh Bộ Lĩnh",
+            "_id": "62acb167024052e2dc5ce5e2"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T13:14:55.400Z",
+        "updatedAt": "2022-06-17T16:52:55.355Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "6280fd1c3ba1b8c0a79aa80d",
+        "slug": "an-homestay",
+        "name": "An homestay",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay Buôn Ma Thuột",
+        "description": "Chỉ là một căn nhà bé bé xinh xinh nằm trong hẻm thôi, ấy thế mà An Homestay vẫn đẹp, vẫn gây thương nhớ tới mọi du khách nhờ không gian được décor theo lối trẻ trung, gợi mở.",
+        "image": "images/homestay/an.jpg",
+        "images": [
+            "images/homestay/an.jpg",
+            "images/homestay/an.jpg"
+        ],
+        "price": 400000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "An homestay",
+                "comment": "Homestay ổn áp",
+                "rating": 4,
+                "_id": "6280fd1c3ba1b8c0a79aa80e",
+                "updatedAt": "2022-05-29T15:28:41.041Z",
+                "createdAt": "2022-05-29T15:28:41.041Z"
+            },
+            {
+                "name": "an homestay",
+                "comment": "Tốt nè",
+                "rating": 4,
+                "_id": "6280fd1c3ba1b8c0a79aa80f",
+                "updatedAt": "2022-05-29T15:28:41.041Z",
+                "createdAt": "2022-05-29T15:28:41.041Z"
+            },
+            {
+                "name": "an homestay",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "6280fd1c3ba1b8c0a79aa810",
+                "updatedAt": "2022-05-29T15:28:41.041Z",
+                "createdAt": "2022-05-29T15:28:41.041Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Đinh Bộ Lĩnh",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa165629d"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T13:16:12.125Z",
+        "updatedAt": "2022-06-09T13:58:17.539Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "6280fd583ba1b8c0a79aa813",
+        "slug": "ban-garden-house-homestay",
+        "name": "Ban Garden House homestay",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay Buôn Ma Thuột",
+        "description": "Ban Garden House là một homestay “xanh”, sở dĩ có cái tên như vậy là vì homestay này lúc nào cũng ngập tràn hương thơm tự nhiên của hoa cỏ, đi kèm với đó là âm thanh róc rách của tiếng suối reo rất êm tai..",
+        "image": "images/homestay/ban.jpg",
+        "images": [
+            "images/homestay/ban.jpg",
+            "images/homestay/ban.jpg"
+        ],
+        "price": 400000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Ban Garden House homestay",
+                "comment": "Homestay ổn áp",
+                "rating": 4,
+                "_id": "6280fd583ba1b8c0a79aa814",
+                "updatedAt": "2022-05-29T15:28:41.063Z",
+                "createdAt": "2022-05-29T15:28:41.063Z"
+            },
+            {
+                "name": "Ban Garden House homestay",
+                "comment": "Tốt nè",
+                "rating": 4,
+                "_id": "6280fd583ba1b8c0a79aa815",
+                "updatedAt": "2022-05-29T15:28:41.063Z",
+                "createdAt": "2022-05-29T15:28:41.063Z"
+            },
+            {
+                "name": "Ban Garden House homestay",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "6280fd583ba1b8c0a79aa816",
+                "updatedAt": "2022-05-29T15:28:41.063Z",
+                "createdAt": "2022-05-29T15:28:41.063Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Đinh Bộ Lĩnh",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa165629f"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T13:17:12.943Z",
+        "updatedAt": "2022-06-09T13:58:17.539Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "6280fd8a3ba1b8c0a79aa819",
+        "slug": "ban-urban-house-homestay",
+        "name": "Ban Urban House homestay",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay Buôn Ma Thuột",
+        "description": "Nằm ngay gần các tụ điểm du lịch, lại được décor rất bắt mắt, Ban Urban House ghi điểm đậm với du khách nhờ khu vực ban công và sân hiên thoáng đãng, quan trọng nhất là toàn bộ đều được lát bằng gỗ.",
+        "image": "images/homestay/banurban.jpg",
+        "images": [
+            "images/homestay/banurban.jpg",
+            "images/homestay/banurban.jpg"
+        ],
+        "price": 400000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Ban Urban House homestay",
+                "comment": "Homestay ổn áp",
+                "rating": 4,
+                "_id": "6280fd8a3ba1b8c0a79aa81a",
+                "updatedAt": "2022-05-29T15:28:41.362Z",
+                "createdAt": "2022-05-29T15:28:41.362Z"
+            },
+            {
+                "name": "Ban Urban House homestay",
+                "comment": "Tốt nè",
+                "rating": 4,
+                "_id": "6280fd8a3ba1b8c0a79aa81b",
+                "updatedAt": "2022-05-29T15:28:41.362Z",
+                "createdAt": "2022-05-29T15:28:41.362Z"
+            },
+            {
+                "name": "Ban Urban House homestay",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "6280fd8a3ba1b8c0a79aa81c",
+                "updatedAt": "2022-05-29T15:28:41.362Z",
+                "createdAt": "2022-05-29T15:28:41.362Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Đinh Bộ Lĩnh",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa16562a1"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T13:18:02.014Z",
+        "updatedAt": "2022-06-14T11:15:52.056Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "_id": "6280fdf23ba1b8c0a79aa81f",
+        "slug": "lak-tented-camp-homestay",
+        "name": "Lak Tented Camp homestay",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Homestay Buôn Ma Thuột",
+        "description": "Lak Tented Camp có thể coi là một luồng gió mới của Buôn Ma Thuột, nơi đem tới cho bạn hình ảnh vùng đất Tây Nguyên chân thực nhất, sạch sẽ nhất.",
+        "image": "images/homestay/lak.jpg",
+        "images": [
+            "images/homestay/lak.jpg",
+            "images/homestay/lak.jpg"
+        ],
+        "price": 300000,
+        "rating": 4,
+        "numReviews": 100,
+        "reviews": [
+            {
+                "name": "Lak Tented Camp homestay",
+                "comment": "Homestay ổn áp",
+                "rating": 4,
+                "_id": "6280fdf23ba1b8c0a79aa820",
+                "updatedAt": "2022-05-29T15:28:42.269Z",
+                "createdAt": "2022-05-29T15:28:42.269Z"
+            },
+            {
+                "name": "Lak Tented Camp homestay",
+                "comment": "Tốt nè",
+                "rating": 4,
+                "_id": "6280fdf23ba1b8c0a79aa821",
+                "updatedAt": "2022-05-29T15:28:42.269Z",
+                "createdAt": "2022-05-29T15:28:42.269Z"
+            },
+            {
+                "name": "Lak Tented Camp homestay",
+                "comment": "Good good good",
+                "rating": 4,
+                "_id": "6280fdf23ba1b8c0a79aa822",
+                "updatedAt": "2022-05-29T15:28:42.269Z",
+                "createdAt": "2022-05-29T15:28:42.269Z"
+            }
+        ],
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Đinh Bộ Lĩnh",
+            "googleAddress": "null",
+            "_id": "62a1fc799a5ab2bfa16562a3"
+        },
+        "status": false,
+        "createdAt": "2022-05-15T13:19:46.129Z",
+        "updatedAt": "2022-06-09T13:58:17.539Z",
+        "__v": 0,
+        "deleted": false
+    },
+    {
+        "rating": 0,
+        "numReviews": 0,
+        "status": false,
+        "_id": "62ad31c59222e329ff3775d6",
+        "name": "HomeStay của Đoan",
+        "userId":4,
+        "categoryId":4,
+        "shortDescription": "Đây là mô tả ngắn",
+        "description": "Đây là mô tả chính",
+        "image": "images/homestay/ottyneybzjadrqsijvjp",
+        "images": [
+            "images/homestay/ottyneybzjadrqsijvjp",
+            "images/homestay/te0o2gvip5hfiimlkoig"
+        ],
+        "price": 110000000,
+        "address": {
+            "country": "Việt Nam",
+            "province": 44,
+            "district": 490,
+            "ward": 7995,
+            "street": "Thôn Thái Giao",
+            "_id": "62b9cda5d68e12142c1e7959"
+        },
+        "deleted": false,
+        "reviews": [],
+        "createdAt": "2022-06-18T02:00:37.967Z",
+        "updatedAt": "2022-06-27T15:32:53.388Z",
+        "slug": "homestay-cua-doan",
+        "__v": 0
+    }
+]
