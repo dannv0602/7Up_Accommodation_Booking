@@ -24,7 +24,7 @@ public class Room extends BaseEntity {
     private Host host;
     @OneToOne(mappedBy = "room")
     private Location location;
-    @OneToMany(mappedBy = "image")
+    @OneToMany(mappedBy = "room")
     private Set<Image> images = new HashSet<>();
     @OneToMany(mappedBy = "room")
     private Set<Evaluation> evaluations = new HashSet<>();
