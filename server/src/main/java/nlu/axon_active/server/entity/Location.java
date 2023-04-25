@@ -1,18 +1,27 @@
 package nlu.axon_active.server.entity;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 @Entity
 @Table(name="locations")
+@Getter
+@Setter
+@NoArgsConstructor
+@AllArgsConstructor
 public class Location extends BaseEntity {
-    private String addressDetail;
     private String city;
     private String district;
     private String ward;
+    private String street;
+    private String houseNumber;
     @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "room_id", referencedColumnName = "id")
+    @JoinColumn(name = "room_id")
     private Room room;
     @OneToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "host_id", referencedColumnName = "id")
+    @JoinColumn(name = "host_id")
     private Host host;
 }
