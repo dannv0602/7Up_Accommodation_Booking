@@ -9,6 +9,7 @@ import nlu.axon_active.server.repo.RoomRepository;
 import nlu.axon_active.server.utils.DateUtils;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
@@ -20,7 +21,8 @@ public class
 
 RoomService implements BaseService<RoomRequest, RoomResponse> {
     @Autowired
-    public RoomRepository roomRepository;
+    private  RoomRepository roomRepository;
+
     ModelMapper mapper = new ModelMapper();;
     @Override
     public RoomResponse createRoom(RoomRequest roomRequest,Long createBy) {
@@ -53,19 +55,15 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
 
     @Override
     public RoomResponse getById(Long id) {
-
-        return null;
+        Room room = roomRepository.findById(id)
+                .orElseThrow(() -> new IllegalArgumentException("Room not found!"+id));
+        return new RoomResponse(room.getId(), room.getTitle(), room.getDescription(), room.getSize(), room.getRentCost(), room.getDeposit(), room.getType(),room.getInteriorStatus(),room.getBedRoomNumber(),room.getBedRoomNumber(),room.getCusorshipStatus(),room.getActiveStatus());
     }
 
     @Override
     public void updateRoom(Long id, RoomRequest roomRequest) {
 
     }
-    @Autowired
-    public RoomService(RoomRepository roomRepository) {
-        this.roomRepository = roomRepository;
-    }
-
     public List<Room> getAllRooms() {
         return roomRepository.findAll();
     }

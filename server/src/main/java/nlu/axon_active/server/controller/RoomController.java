@@ -17,23 +17,27 @@ import java.util.stream.Collectors;
 
 @Controller
 @CrossOrigin("*")
-@RequestMapping(path="/api/v1/rooms")
+@RestController
+@RequestMapping("/api/v1/rooms")
 
 public class RoomController {
-    @Autowired
-    private RoomRepository repository;
+
     @Autowired
     public RoomService roomService;
+    @Autowired
+    private RoomRepository roomRepository;
+
     @PostMapping("create/{createBy}")
     public ResponseEntity<RoomResponse> createRoom(@RequestBody RoomRequest request,@PathVariable Long createBy){
         return new ResponseEntity<>(roomService.createRoom(request,createBy), HttpStatus.OK);
     }
-    @Autowired
-    public RoomController(RoomService roomService) {
-        this.roomService = roomService;
-    }
     @GetMapping
     public List<Room> getAllRooms() {
         return roomService.getAllRooms();
+    }
+    @GetMapping("/{id}")
+    public ResponseEntity<RoomResponse> getRoomById(@PathVariable Long id) {
+        RoomResponse room = roomService.getById(id);
+        return ResponseEntity.ok().body(room);
     }
 }
