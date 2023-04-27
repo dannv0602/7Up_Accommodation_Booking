@@ -6,6 +6,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import nlu.axon_active.server.entity.Image;
 import nlu.axon_active.server.entity.Location;
+import nlu.axon_active.server.entity.Room;
 
 import java.util.Set;
 
@@ -26,5 +27,7 @@ public class RoomResponse {
     private int bathRoomNumber;
     private String cusorshipStatus;
     private String activeStatus;
-
+    public static RoomResponse fromEntity(Room room) {
+        return new RoomResponse(room.getId(), room.getTitle(), room.getDescription(), room.getSize(), room.getRentCost(), room.getDeposit(), room.getType(),room.getInteriorStatus(),room.getBedRoomNumber(),room.getBedRoomNumber(),room.getCusorshipStatus(),room.getActiveStatus());
+    }
 }
