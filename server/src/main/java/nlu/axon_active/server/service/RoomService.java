@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -22,6 +23,7 @@ public class
 RoomService implements BaseService<RoomRequest, RoomResponse> {
     @Autowired
     private  RoomRepository roomRepository;
+
 
     ModelMapper mapper = new ModelMapper();;
     @Override
@@ -64,8 +66,13 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
     public void updateRoom(Long id, RoomRequest roomRequest) {
 
     }
-    public List<Room> getAllRooms() {
-        return roomRepository.findAll();
-    }
 
+    public List<RoomResponse> findAll() {
+        List<Room> rooms = roomRepository.findAll();
+        List<RoomResponse> responses = new ArrayList<>();
+        for (Room room : rooms) {
+            responses.add(RoomResponse.fromEntity(room));
+        }
+        return responses;
+    }
 }

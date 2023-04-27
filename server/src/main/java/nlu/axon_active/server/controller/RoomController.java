@@ -31,9 +31,9 @@ public class RoomController {
     public ResponseEntity<RoomResponse> createRoom(@RequestBody RoomRequest request,@PathVariable Long createBy){
         return new ResponseEntity<>(roomService.createRoom(request,createBy), HttpStatus.OK);
     }
-    @GetMapping
-    public List<Room> getAllRooms() {
-        return roomService.getAllRooms();
+    @GetMapping("")
+    public List<RoomResponse> getAllRooms() {
+        return roomService.findAll();
     }
     @GetMapping("/{id}")
     public ResponseEntity<RoomResponse> getRoomById(@PathVariable Long id) {
