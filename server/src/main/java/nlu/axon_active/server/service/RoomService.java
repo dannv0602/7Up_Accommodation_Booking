@@ -12,10 +12,13 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 @Service
-public class RoomService implements BaseService<RoomRequest, RoomResponse> {
+public class
+
+RoomService implements BaseService<RoomRequest, RoomResponse> {
     @Autowired
     public RoomRepository roomRepository;
     ModelMapper mapper = new ModelMapper();;
@@ -50,6 +53,7 @@ public class RoomService implements BaseService<RoomRequest, RoomResponse> {
 
     @Override
     public RoomResponse getById(Long id) {
+
         return null;
     }
 
@@ -57,4 +61,13 @@ public class RoomService implements BaseService<RoomRequest, RoomResponse> {
     public void updateRoom(Long id, RoomRequest roomRequest) {
 
     }
+    @Autowired
+    public RoomService(RoomRepository roomRepository) {
+        this.roomRepository = roomRepository;
+    }
+
+    public List<Room> getAllRooms() {
+        return roomRepository.findAll();
+    }
+
 }
