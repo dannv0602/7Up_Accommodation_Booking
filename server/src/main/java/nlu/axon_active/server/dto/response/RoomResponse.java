@@ -27,7 +27,6 @@ public class RoomResponse {
     private int bathRoomNumber;
     private String cusorshipStatus;
     private String activeStatus;
-    public static RoomResponse fromEntity(Room room) {
-        return new RoomResponse(room.getId(), room.getTitle(), room.getDescription(), room.getSize(), room.getRentCost(), room.getDeposit(), room.getType(),room.getInteriorStatus(),room.getBedRoomNumber(),room.getBedRoomNumber(),room.getCusorshipStatus(),room.getActiveStatus());
-    }
+    private Set<String> listImages;
+    LocationResponse location;
 }
