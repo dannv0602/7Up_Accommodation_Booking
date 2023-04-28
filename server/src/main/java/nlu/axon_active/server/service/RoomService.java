@@ -27,7 +27,7 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
 
     ModelMapper mapper = new ModelMapper();;
     @Override
-    public RoomResponse createRoom(RoomRequest roomRequest,Long createBy) {
+    public RoomResponse create(RoomRequest roomRequest,Long createBy) {
         Room room = mapper.map(roomRequest,Room.class);
         room.setCreateBy(createBy);
         room.setCreateDate(DateUtils.getNow());
@@ -52,6 +52,7 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
         room.setLocation(location);
 
         RoomResponse roomResponse = mapper.map(roomRepository.save(room),RoomResponse.class);
+//        RoomResponse roomResponse = null;
         return roomResponse;
     }
 
@@ -71,9 +72,8 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
         return roomResponse;
     }
 
-    @Override
-    public void updateRoom(Long id, RoomRequest roomRequest) {
-    }
+    public void update(Long id, RoomRequest request, Long updateBy) {
+
 
     public List<RoomResponse> findAll() {
         List<Room> rooms = roomRepository.findAll();
@@ -83,4 +83,11 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
         }
         return responses;
     }
+
+    @Override
+    public void delete(Long id) {
+
+    }
+
+
 }
