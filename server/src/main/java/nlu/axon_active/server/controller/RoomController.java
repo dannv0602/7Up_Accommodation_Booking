@@ -18,6 +18,6 @@ public class RoomController {
     public RoomService roomService;
     @PostMapping("create/{createBy}")
     public ResponseEntity<RoomResponse> createRoom(@RequestBody RoomRequest request,@PathVariable Long createBy){
-        return new ResponseEntity<>(roomService.createRoom(request,createBy), HttpStatus.OK);
+        return new ResponseEntity<>(roomService.create(request,createBy), HttpStatus.OK);
     }
 }

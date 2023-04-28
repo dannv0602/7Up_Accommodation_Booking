@@ -6,9 +6,10 @@ import org.springframework.stereotype.Service;
 
 @Service
 public interface BaseService<T,U> {
-    public U createRoom(T request, Long createBy);
+    public U create(T request, Long createBy);
     public U getById(Long id);
-    public void updateRoom(Long id,T request);
+    public void update(Long id,T request, Long updateBy);
+    public void delete(Long id);
 
 
 
