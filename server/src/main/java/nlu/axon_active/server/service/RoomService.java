@@ -72,14 +72,22 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
         return roomResponse;
     }
 
-    public void update(Long id, RoomRequest request, Long updateBy) {
+    public void update(Long id, RoomRequest request, Long updateBy) {}
 
 
     public List<RoomResponse> findAll() {
         List<Room> rooms = roomRepository.findAll();
         List<RoomResponse> responses = new ArrayList<>();
         for(Room room: rooms){
-            responses.add(mapper.map(room,RoomResponse.class));
+            RoomResponse roomResponse = mapper.map(room,RoomResponse.class);
+            responses.add(roomResponse);
+            Set<String> urlImages = new HashSet<>();
+
+            for(Image image : room.getImages()){
+                urlImages.add(image.getUrl());
+            }
+
+            roomResponse.setListImages(urlImages);
         }
         return responses;
     }
