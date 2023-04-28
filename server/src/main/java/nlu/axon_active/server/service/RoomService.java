@@ -59,20 +59,28 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
     public RoomResponse getById(Long id) {
         Room room = roomRepository.findById(id)
                 .orElseThrow(() -> new IllegalArgumentException("Room not found!"+id));
-        return new RoomResponse(room.getId(), room.getTitle(), room.getDescription(), room.getSize(), room.getRentCost(), room.getDeposit(), room.getType(),room.getInteriorStatus(),room.getBedRoomNumber(),room.getBedRoomNumber(),room.getCusorshipStatus(),room.getActiveStatus());
+
+        RoomResponse roomResponse = mapper.map(room,RoomResponse.class);
+
+        Set<String> urlImages = new HashSet<>();
+
+        for(Image image : room.getImages()){
+            urlImages.add(image.getUrl());
+        }
+        roomResponse.setListImages(urlImages);
+        return roomResponse;
     }
 
     @Override
     public void updateRoom(Long id, RoomRequest roomRequest) {
-
     }
 
-    public List<RoomResponse> findAll() {
-        List<Room> rooms = roomRepository.findAll();
-        List<RoomResponse> responses = new ArrayList<>();
-        for (Room room : rooms) {
-            responses.add(RoomResponse.fromEntity(room));
-        }
-        return responses;
-    }
+//    public List<RoomResponse> findAll() {
+//        List<Room> rooms = roomRepository.findAll();
+//        List<RoomResponse> responses = new ArrayList<>();
+//        for (Room room : rooms) {
+//            responses.add(RoomResponse.fromEntity(room));
+//        }
+//        return responses;
+//    }
 }
