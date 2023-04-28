@@ -9,15 +9,22 @@ import nlu.axon_active.server.repo.RoomRepository;
 import nlu.axon_active.server.utils.DateUtils;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.crossstore.ChangeSetPersister;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 @Service
-public class RoomService implements BaseService<RoomRequest, RoomResponse> {
+public class
+
+RoomService implements BaseService<RoomRequest, RoomResponse> {
     @Autowired
-    public RoomRepository roomRepository;
+    private  RoomRepository roomRepository;
+
+
     ModelMapper mapper = new ModelMapper();;
     @Override
     public RoomResponse create(RoomRequest roomRequest,Long createBy) {
@@ -51,12 +58,38 @@ public class RoomService implements BaseService<RoomRequest, RoomResponse> {
 
     @Override
     public RoomResponse getById(Long id) {
-        return null;
+        Room room = roomRepository.findById(id)
+                .orElseThrow(() -> new IllegalArgumentException("Room not found!"+id));
+
+        RoomResponse roomResponse = mapper.map(room,RoomResponse.class);
+
+        Set<String> urlImages = new HashSet<>();
+
+        for(Image image : room.getImages()){
+            urlImages.add(image.getUrl());
+        }
+        roomResponse.setListImages(urlImages);
+        return roomResponse;
     }
 
-    @Override
-    public void update(Long id, RoomRequest request, Long updateBy) {
+    public void update(Long id, RoomRequest request, Long updateBy) {}
 
+
+    public List<RoomResponse> findAll() {
+        List<Room> rooms = roomRepository.findAll();
+        List<RoomResponse> responses = new ArrayList<>();
+        for(Room room: rooms){
+            RoomResponse roomResponse = mapper.map(room,RoomResponse.class);
+            responses.add(roomResponse);
+            Set<String> urlImages = new HashSet<>();
+
+            for(Image image : room.getImages()){
+                urlImages.add(image.getUrl());
+            }
+
+            roomResponse.setListImages(urlImages);
+        }
+        return responses;
     }
 
     @Override
