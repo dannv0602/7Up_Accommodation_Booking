@@ -9,9 +9,10 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class AccountRequest {
-    private String username;
-    private String password;
-    private String type;
-    private String avatar;
+public class LocationRequest {
+    private String city;
+    private String district;
+    private String ward;
+    private String street;
+    private String houseNumber;
 }
