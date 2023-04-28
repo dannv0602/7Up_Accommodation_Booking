@@ -75,12 +75,12 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
     public void updateRoom(Long id, RoomRequest roomRequest) {
     }
 
-//    public List<RoomResponse> findAll() {
-//        List<Room> rooms = roomRepository.findAll();
-//        List<RoomResponse> responses = new ArrayList<>();
-//        for (Room room : rooms) {
-//            responses.add(RoomResponse.fromEntity(room));
-//        }
-//        return responses;
-//    }
+    public List<RoomResponse> findAll() {
+        List<Room> rooms = roomRepository.findAll();
+        List<RoomResponse> responses = new ArrayList<>();
+        for(Room room: rooms){
+            responses.add(mapper.map(room,RoomResponse.class));
+        }
+        return responses;
+    }
 }
