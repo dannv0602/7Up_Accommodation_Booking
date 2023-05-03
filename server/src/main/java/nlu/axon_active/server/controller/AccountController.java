@@ -11,13 +11,14 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/account")
+@CrossOrigin("*")
+@RequestMapping("/api/v1/accounts")
 public class AccountController {
     @Autowired
     public AccountService accountService;
 
-    @GetMapping("/{id}")
-    public ResponseEntity<AccountResponse> getById(@PathVariable Long id) {
-        return new ResponseEntity<>(accountService.getById(id), HttpStatus.OK);
+    @GetMapping("/login")
+    public ResponseEntity<AccountResponse> login(@RequestParam String username,@RequestParam String password) {
+        return new ResponseEntity<>(accountService.login(username,password), HttpStatus.OK);
     }
 }

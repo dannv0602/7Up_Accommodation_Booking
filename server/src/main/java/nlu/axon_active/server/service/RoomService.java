@@ -27,7 +27,7 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
 
     ModelMapper mapper = new ModelMapper();;
     @Override
-    public RoomResponse createRoom(RoomRequest roomRequest,Long createBy) {
+    public RoomResponse create(RoomRequest roomRequest,Long createBy) {
         Room room = mapper.map(roomRequest,Room.class);
         room.setCreateBy(createBy);
         room.setCreateDate(DateUtils.getNow());
@@ -44,7 +44,6 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
         }
         room.setImages(images);
 
-
         Location location = mapper.map(roomRequest.getLocation(), Location.class);
         location.setCreateBy(createBy);
         location.setCreateDate(DateUtils.getNow());
@@ -52,6 +51,7 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
         room.setLocation(location);
 
         RoomResponse roomResponse = mapper.map(roomRepository.save(room),RoomResponse.class);
+//        RoomResponse roomResponse = null;
         return roomResponse;
     }
 
@@ -71,16 +71,30 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
         return roomResponse;
     }
 
-    @Override
-    public void updateRoom(Long id, RoomRequest roomRequest) {
+    public void update(Long id, RoomRequest request, Long updateBy) {}
+
+
+    public List<RoomResponse> findAll() {
+        List<Room> rooms = roomRepository.findAll();
+        List<RoomResponse> responses = new ArrayList<>();
+        for(Room room: rooms){
+            RoomResponse roomResponse = mapper.map(room,RoomResponse.class);
+            responses.add(roomResponse);
+            Set<String> urlImages = new HashSet<>();
+
+            for(Image image : room.getImages()){
+                urlImages.add(image.getUrl());
+            }
+
+            roomResponse.setListImages(urlImages);
+        }
+        return responses;
     }
 
-//    public List<RoomResponse> findAll() {
-//        List<Room> rooms = roomRepository.findAll();
-//        List<RoomResponse> responses = new ArrayList<>();
-//        for (Room room : rooms) {
-//            responses.add(RoomResponse.fromEntity(room));
-//        }
-//        return responses;
-//    }
+    @Override
+    public void delete(Long id) {
+
+    }
+
+
 }
