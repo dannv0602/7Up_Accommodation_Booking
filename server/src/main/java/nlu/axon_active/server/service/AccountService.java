@@ -68,5 +68,16 @@ public class AccountService implements BaseService<AccountRequest, AccountRespon
 //        AccountResponse accountResponse = mapper.map(accountRepository.save(account), AccountResponse.class);
         return null;
     }
+    public AccountResponse getByUsername(String username){
+        Account account = accountRepository.findAccountByUsername(username);
+        if (!ObjectUtils.isEmpty(account)) {
+            AccountResponse accountResponse = mapper.map(account, AccountResponse.class);
+            Set<String> roles = new HashSet<>();
+            account.getAccountRoles().forEach(a -> roles.add(a.getRole().getRoleName()));
+            accountResponse.setRoles(roles);
+            return accountResponse;
+        }
+        return null;
+    }
 
 }

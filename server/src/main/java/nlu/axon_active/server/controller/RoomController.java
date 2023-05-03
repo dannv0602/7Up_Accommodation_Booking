@@ -36,4 +36,6 @@ public class RoomController {
         RoomResponse room = roomService.getById(id);
         return ResponseEntity.ok().body(room);
     }
+
+
 }

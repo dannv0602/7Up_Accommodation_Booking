@@ -21,4 +21,8 @@ public class AccountController {
     public ResponseEntity<AccountResponse> login(@RequestParam String username,@RequestParam String password) {
         return new ResponseEntity<>(accountService.login(username,password), HttpStatus.OK);
     }
+    @GetMapping("/search")
+    public ResponseEntity<AccountResponse> search(@RequestParam String username) {
+        return new ResponseEntity<>(accountService.getByUsername(username), HttpStatus.OK);
+    }
 }
