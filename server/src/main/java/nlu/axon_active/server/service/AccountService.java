@@ -57,16 +57,16 @@ public class AccountService implements BaseService<AccountRequest, AccountRespon
     }
 
     public AccountResponse register(AccountRequest accountRequest, Long createBy) {
-        Account account = mapper.map(accountRequest, Account.class);
-        account.setCreateBy(createBy);
-        account.setCreateDate(DateUtils.getNow());
-        Location location = mapper.map(accountRequest.getLocation(), Location.class);
-        location.setCreateBy(createBy);
-        location.setCreateDate(DateUtils.getNow());
-        location.setAccount(account);
-        account.setLocation(location);
-        AccountResponse accountResponse = mapper.map(accountRepository.save(account), AccountResponse.class);
-        return accountResponse;
+//        Account account = mapper.map(accountRequest, Account.class);
+//        account.setCreateBy(createBy);
+//        account.setCreateDate(DateUtils.getNow());
+//        Location location = mapper.map(accountRequest.getLocation(), Location.class);
+//        location.setCreateBy(createBy);
+//        location.setCreateDate(DateUtils.getNow());
+//        location.setAccount(account);
+//        account.setLocation(location);
+//        AccountResponse accountResponse = mapper.map(accountRepository.save(account), AccountResponse.class);
+        return null;
     }
 
 }

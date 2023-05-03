@@ -44,7 +44,6 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
         }
         room.setImages(images);
 
-
         Location location = mapper.map(roomRequest.getLocation(), Location.class);
         location.setCreateBy(createBy);
         location.setCreateDate(DateUtils.getNow());
