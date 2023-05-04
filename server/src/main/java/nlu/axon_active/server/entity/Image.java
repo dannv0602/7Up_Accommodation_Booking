@@ -14,7 +14,7 @@ import lombok.Setter;
 @AllArgsConstructor
 public class Image extends BaseEntity {
     private String url;
-    @ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne()
     @JoinColumn(name = "room_id")
     private Room room;
 }
