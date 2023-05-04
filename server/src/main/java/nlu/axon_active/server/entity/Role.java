@@ -1,6 +1,7 @@
 package nlu.axon_active.server.entity;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.FetchType;
 import jakarta.persistence.OneToMany;
 import jakarta.persistence.Table;
 import lombok.AllArgsConstructor;
@@ -19,7 +20,7 @@ import java.util.Set;
 @AllArgsConstructor
 public class Role extends BaseEntity {
     private String roleName;
-    @OneToMany(mappedBy = "role")
+    @OneToMany(mappedBy = "role",fetch = FetchType.LAZY)
     private Set<AccountRole> accountRoles = new HashSet<>();
 
 }

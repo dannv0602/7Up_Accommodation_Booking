@@ -26,6 +26,6 @@ public class Account extends BaseEntity {
     private Set<Evaluation> evaluations = new HashSet<>();
     @OneToMany(mappedBy = "account", fetch = FetchType.LAZY)
     private Set<Wishlist> wishlist = new HashSet<>();
-    @OneToMany(mappedBy = "account", fetch = FetchType.LAZY)
+    @OneToMany(mappedBy = "account", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private Set<AccountRole> accountRoles = new HashSet<>();
 }

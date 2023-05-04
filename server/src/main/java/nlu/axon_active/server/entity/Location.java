@@ -18,10 +18,10 @@ public class Location extends BaseEntity {
     private String ward;
     private String street;
     private String houseNumber;
-    @OneToOne(cascade = CascadeType.ALL)
+    @OneToOne()
     @JoinColumn(name = "room_id")
     private Room room;
-    @OneToOne(cascade = CascadeType.ALL)
+    @OneToOne()
     @JoinColumn(name = "host_id")
     private Host host;
 }
