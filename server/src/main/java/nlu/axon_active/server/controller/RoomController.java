@@ -15,23 +15,19 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 import java.util.stream.Collectors;
 
-@Controller
 @CrossOrigin("*")
 @RestController
 @RequestMapping("/api/v1/rooms")
 
 public class RoomController {
-
     @Autowired
     public RoomService roomService;
-    @Autowired
-    private RoomRepository roomRepository;
 
     @PostMapping("create/{createBy}")
     public ResponseEntity<RoomResponse> createRoom(@RequestBody RoomRequest request,@PathVariable Long createBy){
         return new ResponseEntity<>(roomService.create(request,createBy), HttpStatus.OK);
     }
-    @GetMapping("")
+    @GetMapping()
     public List<RoomResponse> getAllRooms() {
         return roomService.findAll();
     }
@@ -40,4 +36,6 @@ public class RoomController {
         RoomResponse room = roomService.getById(id);
         return ResponseEntity.ok().body(room);
     }
+
+
 }
