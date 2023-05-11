@@ -96,5 +96,57 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
 
     }
 
+    public List<RoomResponse> searchRoomByKeywords(String keyword, double minPrice, double maxPrice) {
+        List<Room> rooms = roomRepository.findByTitleContainingIgnoreCase(keyword,minPrice,maxPrice);
+        List<RoomResponse> responses = new ArrayList<>();
 
+        for(Room room : rooms) {
+            RoomResponse roomResponse = mapper.map(room, RoomResponse.class);
+            Set<String> urlImages = new HashSet<>();
+
+            for(Image image : room.getImages()) {
+                urlImages.add(image.getUrl());
+            }
+            roomResponse.setListImages(urlImages);
+            responses.add(roomResponse);
+        }
+
+        return responses;
+    }
+
+    public List<RoomResponse> getRoomByCity(String city, double minPrice, double maxPrice) {
+        List<Room> rooms = roomRepository.findByLocationCity(city, minPrice, maxPrice);
+        List<RoomResponse> responses = new ArrayList<>();
+
+        for(Room room : rooms) {
+            RoomResponse roomResponse = mapper.map(room, RoomResponse.class);
+            Set<String> urlImages = new HashSet<>();
+
+            for(Image image : room.getImages()) {
+                urlImages.add(image.getUrl());
+            }
+            roomResponse.setListImages(urlImages);
+            responses.add(roomResponse);
+        }
+
+        return responses;
+    }
+
+    public List<RoomResponse> getRoomByCityAndDistrict(String city, String district, double minPrice, double maxPrice) {
+        List<Room> rooms = roomRepository.findByLocationCityDistrict(city, district,minPrice,maxPrice);
+        List<RoomResponse> responses = new ArrayList<>();
+
+        for(Room room : rooms) {
+            RoomResponse roomResponse = mapper.map(room, RoomResponse.class);
+            Set<String> urlImages = new HashSet<>();
+
+            for(Image image : room.getImages()) {
+                urlImages.add(image.getUrl());
+            }
+            roomResponse.setListImages(urlImages);
+            responses.add(roomResponse);
+        }
+
+        return responses;
+    }
 }
