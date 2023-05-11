@@ -49,7 +49,8 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
         location.setCreateDate(DateUtils.getNow());
         location.setRoom(room);
         room.setLocation(location);
-
+        room.setActiveStatus("ACTIVE");
+        room.setInteriorStatus(roomRequest.getInteriorStatus());
         RoomResponse roomResponse = mapper.map(roomRepository.save(room),RoomResponse.class);
 //        RoomResponse roomResponse = null;
         return roomResponse;
