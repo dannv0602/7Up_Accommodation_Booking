@@ -1,9 +1,6 @@
 package nlu.axon_active.server.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.OneToMany;
-import jakarta.persistence.OneToOne;
-import jakarta.persistence.Table;
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -27,8 +24,10 @@ public class Host extends BaseEntity{
     private Date birthDate;
     private String activeStatus;
 
-    @OneToMany(mappedBy="host")
+    @OneToMany(mappedBy="host",fetch = FetchType.LAZY)
     private Set<Room> rooms = new HashSet<>();
-    @OneToOne(mappedBy = "host")
+    @OneToOne(mappedBy = "host",cascade = CascadeType.ALL)
     private Location location;
+    @OneToOne(mappedBy = "host",fetch = FetchType.LAZY)
+    private Account account;
 }

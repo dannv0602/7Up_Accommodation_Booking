@@ -22,18 +22,20 @@ public class
 
 RoomService implements BaseService<RoomRequest, RoomResponse> {
     @Autowired
-    private  RoomRepository roomRepository;
+    private RoomRepository roomRepository;
 
 
-    ModelMapper mapper = new ModelMapper();;
+    ModelMapper mapper = new ModelMapper();
+    ;
+
     @Override
-    public RoomResponse create(RoomRequest roomRequest,Long createBy) {
-        Room room = mapper.map(roomRequest,Room.class);
+    public RoomResponse create(RoomRequest roomRequest, Long createBy) {
+        Room room = mapper.map(roomRequest, Room.class);
         room.setCreateBy(createBy);
         room.setCreateDate(DateUtils.getNow());
         Set<Image> images = new HashSet<>();
 
-        for(String imageRequest: roomRequest.getImages()){
+        for (String imageRequest : roomRequest.getImages()) {
             Image image = new Image();
             image.setUrl(imageRequest);
             image.setCreateBy(createBy);
@@ -49,40 +51,42 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
         location.setCreateDate(DateUtils.getNow());
         location.setRoom(room);
         room.setLocation(location);
-
-        RoomResponse roomResponse = mapper.map(roomRepository.save(room),RoomResponse.class);
-//        RoomResponse roomResponse = null;
+        room.setActiveStatus("ACTIVE");
+        room.setInteriorStatus(roomRequest.getInteriorStatus());
+        RoomResponse roomResponse = mapper.map(roomRepository.save(room), RoomResponse.class);
+//      RoomResponse roomResponse = null;
         return roomResponse;
     }
 
     @Override
     public RoomResponse getById(Long id) {
         Room room = roomRepository.findById(id)
-                .orElseThrow(() -> new IllegalArgumentException("Room not found!"+id));
+                .orElseThrow(() -> new IllegalArgumentException("Room not found!" + id));
 
-        RoomResponse roomResponse = mapper.map(room,RoomResponse.class);
+        RoomResponse roomResponse = mapper.map(room, RoomResponse.class);
 
         Set<String> urlImages = new HashSet<>();
 
-        for(Image image : room.getImages()){
+        for (Image image : room.getImages()) {
             urlImages.add(image.getUrl());
         }
         roomResponse.setListImages(urlImages);
         return roomResponse;
     }
 
-    public void update(Long id, RoomRequest request, Long updateBy) {}
+    public void update(Long id, RoomRequest request, Long updateBy) {
+    }
 
 
     public List<RoomResponse> findAll() {
         List<Room> rooms = roomRepository.findAll();
         List<RoomResponse> responses = new ArrayList<>();
-        for(Room room: rooms){
-            RoomResponse roomResponse = mapper.map(room,RoomResponse.class);
+        for (Room room : rooms) {
+            RoomResponse roomResponse = mapper.map(room, RoomResponse.class);
             responses.add(roomResponse);
             Set<String> urlImages = new HashSet<>();
 
-            for(Image image : room.getImages()){
+            for (Image image : room.getImages()) {
                 urlImages.add(image.getUrl());
             }
 
@@ -94,6 +98,13 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
     @Override
     public void delete(Long id) {
 
+    }
+
+    public List<RoomResponse> findByLocationCity(String city) {
+        List<RoomResponse> roomResponses = new ArrayList<>();
+        roomRepository.findRoomsByLocationCity(city)
+                .forEach(r -> roomResponses.add(mapper.map(r, RoomResponse.class)));
+        return roomResponses;
     }
 
 

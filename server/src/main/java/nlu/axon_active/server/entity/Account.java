@@ -28,4 +28,7 @@ public class Account extends BaseEntity {
     private Set<Wishlist> wishlist = new HashSet<>();
     @OneToMany(mappedBy = "account", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
     private Set<AccountRole> accountRoles = new HashSet<>();
+    @OneToOne( cascade = CascadeType.ALL)
+    @JoinColumn(name = "host_id")
+    private Host host;
 }

@@ -18,4 +18,5 @@ public class AccountResponse {
     private String avatar;
     private String type;
     private Set<String> roles;
+    private HostResponse host;
 }
