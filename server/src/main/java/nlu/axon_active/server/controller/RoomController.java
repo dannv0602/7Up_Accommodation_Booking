@@ -39,10 +39,6 @@ public class RoomController {
         RoomResponse room = roomService.getById(id);
         return ResponseEntity.ok().body(room);
     }
-    @GetMapping("/search/{city}")
-    public ResponseEntity<List<RoomResponse>> getRoomById(@PathVariable String city) {
-       return new ResponseEntity<>(roomService.findByLocationCity(city), HttpStatus.OK);
-    }
 
 
     @GetMapping("/search")
