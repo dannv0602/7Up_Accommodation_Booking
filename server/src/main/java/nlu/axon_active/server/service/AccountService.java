@@ -4,6 +4,7 @@ import nlu.axon_active.server.dto.request.AccountRequest;
 import nlu.axon_active.server.dto.request.HostRequest;
 import nlu.axon_active.server.dto.response.AccountResponse;
 import nlu.axon_active.server.dto.response.HostResponse;
+import nlu.axon_active.server.dto.response.LocationResponse;
 import nlu.axon_active.server.entity.*;
 import nlu.axon_active.server.entity.composite_key.AccountRoleId;
 import nlu.axon_active.server.exception.NotFoundException;
@@ -66,6 +67,13 @@ public class AccountService implements BaseService<AccountRequest, AccountRespon
             Set<String> roles = new HashSet<>();
             account.getAccountRoles().forEach(a -> roles.add(a.getRole().getRoleName()));
             accountResponse.setRoles(roles);
+            //Set host
+            if(account.getHost()!=null) {
+                HostResponse hostResponse = mapper.map(account.getHost(), HostResponse.class);
+                LocationResponse locationResponse = mapper.map(account.getHost().getLocation(), LocationResponse.class);
+                hostResponse.setLocations(locationResponse);
+                accountResponse.setHost(hostResponse);
+            }
 
             return accountResponse;
         }
