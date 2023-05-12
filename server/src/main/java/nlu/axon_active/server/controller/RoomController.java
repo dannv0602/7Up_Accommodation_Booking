@@ -40,7 +40,6 @@ public class RoomController {
         return ResponseEntity.ok().body(room);
     }
 
-
     @GetMapping("/search")
     public ResponseEntity<List<RoomResponse>> searchRoomByKeywords(
             @RequestParam("query") String query,
