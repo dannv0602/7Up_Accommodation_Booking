@@ -8,6 +8,7 @@ import nlu.axon_active.server.entity.Image;
 import nlu.axon_active.server.entity.Location;
 import nlu.axon_active.server.entity.Room;
 
+import java.util.Date;
 import java.util.Set;
 
 @NoArgsConstructor
@@ -28,5 +29,7 @@ public class RoomResponse {
     private String cusorshipStatus;
     private String activeStatus;
     private Set<String> listImages;
+    private Date createDate;
     LocationResponse location;
+    HostResponse hostResponse;
 }

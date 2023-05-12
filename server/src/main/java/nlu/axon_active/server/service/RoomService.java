@@ -1,7 +1,9 @@
 package nlu.axon_active.server.service;
 
 import nlu.axon_active.server.dto.request.RoomRequest;
+import nlu.axon_active.server.dto.response.HostResponse;
 import nlu.axon_active.server.dto.response.RoomResponse;
+import nlu.axon_active.server.entity.Host;
 import nlu.axon_active.server.entity.Image;
 import nlu.axon_active.server.entity.Location;
 import nlu.axon_active.server.entity.Room;
@@ -69,6 +71,11 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
             urlImages.add(image.getUrl());
         }
         roomResponse.setListImages(urlImages);
+        //Get host
+        if(room.getHost()!=null){
+            HostResponse hostResponse = mapper.map(room.getHost(), HostResponse.class);
+            roomResponse.setHostResponse(hostResponse);
+        }
         return roomResponse;
     }
 
