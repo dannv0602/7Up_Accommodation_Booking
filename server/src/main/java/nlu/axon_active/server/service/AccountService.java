@@ -157,10 +157,16 @@ public class AccountService implements BaseService<AccountRequest, AccountRespon
 
         //Save account with host
         account.setHost(host);
+        Account accountR = accountRepository.save(account);
+        //
+        AccountResponse accountResponse = mapper.map(accountR, AccountResponse.class);
+        Set<String> roles = new HashSet<>();
+        accountR.getAccountRoles().forEach(a -> roles.add(a.getRole().getRoleName()));
+        accountResponse.setRoles(roles);
 
-        accountRepository.save(account);
 
-        return mapper.map(account, AccountResponse.class);
+
+        return accountResponse;
 
     }
     public void deleteHost(Long hostId){
