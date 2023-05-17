@@ -26,5 +26,6 @@ public class RoomRequest {
     private int bedRoomNumber;
     private int bathRoomNumber;
     private LocationRequest location;
+    private Long hostId;
     private List<String> images = new ArrayList<>();
 }

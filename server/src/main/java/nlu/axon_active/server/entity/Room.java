@@ -17,6 +17,7 @@ import java.util.Set;
 @AllArgsConstructor
 public class Room extends BaseEntity {
     private String title;
+    @Column(columnDefinition = "TEXT")
     private String description;
     private double size;
     private double rentCost;

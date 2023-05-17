@@ -13,6 +13,7 @@ import java.util.Set;
 @NoArgsConstructor
 @AllArgsConstructor
 public class HostResponse {
+    private Long id;
     private String name;
     private String phoneNumber;
     private String gender;

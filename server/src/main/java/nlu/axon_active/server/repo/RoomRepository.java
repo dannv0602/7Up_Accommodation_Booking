@@ -17,4 +17,5 @@ public interface RoomRepository extends JpaRepository<Room,Long> {
 
     @Query("SELECT r FROM Room r JOIN r.location l WHERE l.city = :city AND l.district = :district AND r.rentCost BETWEEN :minPrice AND :maxPrice" )
     List<Room> findByLocationCityDistrict(String city, String district, double minPrice, double maxPrice);
+    public List<Room> findRoomsByActiveStatus(String activeStatus);
 }
