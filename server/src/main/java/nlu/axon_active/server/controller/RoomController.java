@@ -67,4 +67,9 @@ public class RoomController {
         List<RoomResponse> room = roomService.getRoomByCityAndDistrict(city, district, minPrice, maxPrice);
         return ResponseEntity.ok().body(room);
     }
+    @GetMapping("/disable/{id}")
+    public ResponseEntity<?> disableRoom(@PathVariable Long id) {
+        roomService.disableRoom(id);
+        return ResponseEntity.noContent().build();
+    }
 }

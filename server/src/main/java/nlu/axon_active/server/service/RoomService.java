@@ -1,12 +1,12 @@
 package nlu.axon_active.server.service;
 
+import jakarta.transaction.Transactional;
 import nlu.axon_active.server.dto.request.RoomRequest;
 import nlu.axon_active.server.dto.response.HostResponse;
 import nlu.axon_active.server.dto.response.RoomResponse;
-import nlu.axon_active.server.entity.Host;
-import nlu.axon_active.server.entity.Image;
-import nlu.axon_active.server.entity.Location;
-import nlu.axon_active.server.entity.Room;
+import nlu.axon_active.server.entity.*;
+import nlu.axon_active.server.exception.NotFoundException;
+import nlu.axon_active.server.repo.AccountRepository;
 import nlu.axon_active.server.repo.HostRepository;
 import nlu.axon_active.server.repo.RoomRepository;
 import nlu.axon_active.server.utils.DateUtils;
@@ -28,6 +28,8 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
     private  RoomRepository roomRepository;
     @Autowired
     public HostRepository hostRepository;
+    @Autowired
+    public AccountRepository accountRepository;
 
     ModelMapper mapper = new ModelMapper();;
     @Override
@@ -54,14 +56,16 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
         location.setRoom(room);
         room.setLocation(location);
         room.setActiveStatus("ACTIVE");
-        room.setInteriorStatus(roomRequest.getInteriorStatus());
 
         //SetHost
-        Host host = hostRepository.findById(roomRequest.getHostId())
-                .orElseThrow(() -> new IllegalArgumentException("Host not found! "+roomRequest.getHostId()));
-        room.setHost(host);
-        RoomResponse roomResponse = mapper.map(roomRepository.save(room),RoomResponse.class);
-//        RoomResponse roomResponse = null;
+        Account host = accountRepository.findById(createBy)
+                .orElseThrow(() -> new NotFoundException("Host not found! "+createBy));
+        if(host.getHost()!=null){
+            room.setHost(host.getHost());
+        }
+        Room roomCreated = roomRepository.save(room);
+        RoomResponse roomResponse = mapper.map(roomCreated,RoomResponse.class);
+ //       RoomResponse roomResponse = null;
         return roomResponse;
     }
 
@@ -94,14 +98,19 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
         List<RoomResponse> responses = new ArrayList<>();
         for(Room room: rooms){
             RoomResponse roomResponse = mapper.map(room,RoomResponse.class);
-            responses.add(roomResponse);
-            Set<String> urlImages = new HashSet<>();
 
+            Set<String> urlImages = new HashSet<>();
             for(Image image : room.getImages()){
                 urlImages.add(image.getUrl());
             }
 
             roomResponse.setListImages(urlImages);
+            //Get host
+            if(room.getHost()!=null){
+                HostResponse hostResponse = mapper.map(room.getHost(), HostResponse.class);
+                roomResponse.setHostResponse(hostResponse);
+            }
+            responses.add(roomResponse);
         }
         return responses;
     }
@@ -163,5 +172,11 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
         }
 
         return responses;
+    }
+    public void  disableRoom(Long id){
+        Room room = roomRepository.findById(id).orElseThrow(()
+                -> new NotFoundException("Room not found!"+id));
+        room.setActiveStatus("INACTIVE");
+        roomRepository.save(room);
     }
 }
