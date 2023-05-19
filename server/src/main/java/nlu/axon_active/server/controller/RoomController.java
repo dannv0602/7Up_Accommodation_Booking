@@ -31,6 +31,10 @@ public class RoomController {
 
     @GetMapping()
     public List<RoomResponse> getAllRooms() {
+        return roomService.findActive();
+    }
+    @GetMapping("/all")
+    public List<RoomResponse> getRooms() {
         return roomService.findAll();
     }
 
@@ -70,6 +74,11 @@ public class RoomController {
     @GetMapping("/disable/{id}")
     public ResponseEntity<?> disableRoom(@PathVariable Long id) {
         roomService.disableRoom(id);
+        return ResponseEntity.noContent().build();
+    }
+    @GetMapping("/enable/{id}")
+    public ResponseEntity<?> enaleRoom(@PathVariable Long id) {
+        roomService.enableRoom(id);
         return ResponseEntity.noContent().build();
     }
 }

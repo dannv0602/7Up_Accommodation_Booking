@@ -91,9 +91,29 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
     }
 
     public void update(Long id, RoomRequest request, Long updateBy) {}
-
-
     public List<RoomResponse> findAll() {
+        List<Room> rooms = roomRepository.findAll();
+        List<RoomResponse> responses = new ArrayList<>();
+        for(Room room: rooms){
+            RoomResponse roomResponse = mapper.map(room,RoomResponse.class);
+
+            Set<String> urlImages = new HashSet<>();
+            for(Image image : room.getImages()){
+                urlImages.add(image.getUrl());
+            }
+
+            roomResponse.setListImages(urlImages);
+            //Get host
+            if(room.getHost()!=null){
+                HostResponse hostResponse = mapper.map(room.getHost(), HostResponse.class);
+                roomResponse.setHostResponse(hostResponse);
+            }
+            responses.add(roomResponse);
+        }
+        return responses;
+    }
+
+    public List<RoomResponse> findActive() {
         List<Room> rooms = roomRepository.findRoomsByActiveStatus("ACTIVE");
         List<RoomResponse> responses = new ArrayList<>();
         for(Room room: rooms){
@@ -177,6 +197,12 @@ RoomService implements BaseService<RoomRequest, RoomResponse> {
         Room room = roomRepository.findById(id).orElseThrow(()
                 -> new NotFoundException("Room not found!"+id));
         room.setActiveStatus("INACTIVE");
+        roomRepository.save(room);
+    }
+    public void  enableRoom(Long id){
+        Room room = roomRepository.findById(id).orElseThrow(()
+                -> new NotFoundException("Room not found!"+id));
+        room.setActiveStatus("ACTIVE");
         roomRepository.save(room);
     }
 }
